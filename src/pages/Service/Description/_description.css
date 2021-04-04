@@ -1,0 +1,21 @@
+.description {
+   margin: 80px;
+}
+
+.description-title {
+   display: flex;
+   justify-content: center;
+}
+
+.description-title-text {
+   display: flex;
+   font-size: 30px;
+   font-weight: 300;
+   justify-content: center;
+   padding: 5px 10px;
+   width: fit-content;
+}
+
+.description-text {
+   text-align: justify;
+}

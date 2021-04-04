@@ -1,0 +1,9 @@
+.banner {
+   height: 90vh;
+}
+
+.banner-title {
+   color: white;
+   font-size: 60px;
+   font-weight: 300;
+}

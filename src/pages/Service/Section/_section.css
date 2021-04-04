@@ -1,0 +1,12 @@
+.section {
+   align-items: center;
+   display: flex;
+   height: 100px;
+   margin: 10px;
+   padding-left: 30%;
+}
+
+.section-title {
+   font-size: 40px;
+   font-weight: 300;
+}
