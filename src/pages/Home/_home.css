@@ -1,23 +1,36 @@
-.home-section {
-   background-color: rgb(121, 39, 121);
-   height: 90vh;
-}
-
-.home-title {
-   color: white;
-   font-size: 60px;
-   font-weight: 300;
+#home {
+   display: flex;
+   flex-direction: column;
+   height: 80vh;
+   justify-content: center;
+   padding: 0 10%;
 }
 
 .home-service {
-   align-items: center;
-   display: flex;
-   height: 120px;
-   margin: 10px 0;
-   padding-left: 35%;
+   color: white;
+   margin: 5px 0;
 }
 
 .home-service-text {
    color: white;
-   font-size: 40px;
+   font-size: 24px;
+   margin: 10px;
+   padding: 0 20px;
+   text-align: initial;
+}
+
+@media (min-width: 700px) {
+   #home {
+      padding: 0 25%;
+   }
+
+   .home-service {
+      display: flex;
+      padding-left: 10%;
+   }
+
+   .home-service-text {
+      color: white;
+      font-size: 30px;
+   }
 }

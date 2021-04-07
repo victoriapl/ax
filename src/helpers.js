@@ -1,5 +1,5 @@
-import { SERVICES } from "./constants";
+import { services } from "./data.json";
 
 export const getServiceData = serviceUrl => {
-  return SERVICES.find(service => service.url === serviceUrl);
+  return services.find(service => service.url === serviceUrl);
 };
