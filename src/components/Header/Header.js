@@ -18,9 +18,12 @@ export default function Header({ title, navLinks }) {
         />
       </div>
       <div className='header-links'>
-        {navLinks.map(link => (
-          <h3 key={link} className='header-link-item'>
-            {link}
+        {navLinks.map(({ title, url }, i) => (
+          <h3
+            key={i}
+            onClick={() => history.push(url)}
+            className='header-link-item'>
+            {title}
           </h3>
         ))}
       </div>

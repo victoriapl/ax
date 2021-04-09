@@ -1,12 +1,14 @@
 import React from "react";
 import "./_home.css";
 import { services } from "../../data.json";
-import { CUSTOM_TITLE } from "../../constants";
+import { CONSULTING_LOGO, CUSTOM_TITLE } from "../../constants";
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div id='home'>
+    <div
+      id='home'
+      style={{ backgroundImage: `url(${CONSULTING_LOGO})` }}>
       {services.map(service => (
         <div
           key={service.title}

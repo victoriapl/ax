@@ -4,10 +4,11 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
+import { NAV, TITLE } from "./constants";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
+import Services from "./pages/Services/Services";
 import Service from "./pages/Service/Service";
-import { NAV, TITLE } from "./constants";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Header title={TITLE} navLinks={NAV} />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route path='/:service' component={Service} />
+          <Route exact path='/services' component={Services} />
+          <Route exact path='/:service' component={Service} />
         </Switch>
         <Footer />
       </Router>
