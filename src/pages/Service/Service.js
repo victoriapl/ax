@@ -13,7 +13,7 @@ export default function Service() {
 
   useEffect(() => {
     const serviceData = getServiceData(service);
-    const description = serviceData.description.replace(
+    const description = serviceData?.description.replace(
       /\n/g,
       "<br />"
     );
