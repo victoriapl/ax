@@ -1,6 +1,6 @@
 import React from "react";
 import parse from "react-html-parser";
-import logo from "../../../logo.svg";
+import { LOGO } from "../../../constants";
 import "./_description.css";
 
 export default function Description({
@@ -15,9 +15,9 @@ export default function Description({
           className='description-title-text'
           style={{
             color: primaryColor,
-            borderBottom: `2px solid ${primaryColor}`,
+            borderBottom: `3px solid ${primaryColor}`,
           }}>
-          <img src={logo} alt={"logo"} width={50} />
+          <img src={LOGO} alt={"logo"} width={100} />
           {title}
         </h3>
       </div>

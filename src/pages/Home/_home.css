@@ -1,6 +1,5 @@
 #home {
    display: flex;
-   background-image: none;
    flex-direction: column;
    height: 80vh;
    justify-content: center;
@@ -13,7 +12,6 @@
 }
 
 .home-service-text {
-   color: white;
    font-size: 24px;
    margin: 10px;
    padding: 0 20px;
@@ -22,12 +20,12 @@
 
 @media (min-width: 700px) {
    #home {
+      background-image: url('../../assets/logoBackground.svg');
       background-position: center;
       background-position-x: 60%;
       background-position-y: 25%;
       background-size: 1450px;
       padding: 0 30%;
-
    }
 
    .home-service {
@@ -36,7 +34,6 @@
    }
 
    .home-service-text {
-      color: white;
       font-size: 30px;
    }
 }

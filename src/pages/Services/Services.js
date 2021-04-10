@@ -1,4 +1,5 @@
 import React from "react";
+import ServiceButton from "../../components/ServiceButton/ServiceButton";
 import {
   title,
   primaryColor,
@@ -6,6 +7,7 @@ import {
   services,
 } from "../../data.json";
 import Description from "../Service/Description/Description";
+import "./_services.css";
 
 export default function Services() {
   return (
@@ -15,12 +17,30 @@ export default function Services() {
         description={description}
         title={title}
       />
-      {services.map(({ description, image }) => (
-        <div>
-          <img src={`${image}`} alt={image} />
-          <p>{description}</p>
-        </div>
-      ))}
+      <div className='services-wrapper'>
+        {services.map(service => (
+          <div className='services-item'>
+            <img
+              src={service.image}
+              className='services-image'
+              style={{ borderColor: service.borderColor }}
+              alt={service.image}
+            />
+            <p className='services-item-text'>
+              {service.shortDescription}
+            </p>
+            <ServiceButton
+              title={service.title}
+              primaryColor={service.primaryColor}
+              secondaryColor={service.secondaryColor}
+              url={service.url}
+              imgWidth={30}
+              buttonStyle={"services-button"}
+              textStyle={"services-button-text"}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

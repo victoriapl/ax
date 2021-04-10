@@ -6,18 +6,21 @@ export const NAV = [
   { title: "Contacto", url: "/contacto" },
 ];
 
-export const CUSTOM_TITLE = ({ text, style }) => (
-  <span stlye={{ color: "white" }}>
-    AX | <span style={style}>{text}</span>
+export const CUSTOM_TITLE = ({ text, style, imgWidth }) => (
+  <span style={{ display: "flex", alignItems: "center" }}>
+    <img
+      src={AX_LETTERS}
+      width={imgWidth}
+      style={{ marginRight: "5px" }}
+      alt={"AX"}
+    />{" "}
+    <span style={style}>{text}</span>
   </span>
 );
 
 //ICONS
-export const LOGO = "/icons/logoServicesColor.svg";
+export const LOGO = "/icons/logoServices.svg";
+export const FOOTER_LOGO = "icons/logoBlancoGrueso.svg";
 export const CONSULTING_LOGO = "/icons/logoConsultingLogo.svg";
 export const HAMBURGER_MENU_ICON = "/icons/menu.png";
-export const CONSULTING_IMAGE = "/icons/CONSULTING.svg";
-export const DEVELOPEMENT_IMAGE = "/icons/DEVELOPMEN.svg";
-export const NUTRITUION_IMAGE = "/icons/NUTRITION.svg";
-export const SPORT_IMAGE = "/icons/SPORT.svg";
-export const ART_IMAGE = "/icons/ART.svg";
+export const AX_LETTERS = "/icons/axBlanco.svg";

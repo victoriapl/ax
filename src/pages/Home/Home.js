@@ -1,33 +1,21 @@
 import React from "react";
 import "./_home.css";
 import { services } from "../../data.json";
-import { CONSULTING_LOGO, CUSTOM_TITLE } from "../../constants";
-import { Link } from "react-router-dom";
+import ServiceButton from "../../components/ServiceButton/ServiceButton";
 
 export default function Home() {
   return (
-    <div
-      id='home'
-      style={{ backgroundImage: `url(${CONSULTING_LOGO})` }}>
-      {services.map(service => (
-        <div
-          key={service.title}
-          className='home-service'
-          style={{ background: service.primaryColor }}>
-          <Link
-            to={`/${service.url}`}
-            style={{ textDecoration: "none" }}>
-            <p className='home-service-text'>
-              {CUSTOM_TITLE({
-                text: service.title,
-                style: {
-                  color: service.secondaryColor,
-                  fontWeight: 300,
-                },
-              })}
-            </p>
-          </Link>
-        </div>
+    <div id='home'>
+      {services.map(({ title, primaryColor, secondaryColor, url }) => (
+        <ServiceButton
+          title={title}
+          primaryColor={primaryColor}
+          secondaryColor={secondaryColor}
+          url={url}
+          imgWidth={40}
+          buttonStyle={"home-service"}
+          textStyle={"home-service-text"}
+        />
       ))}
     </div>
   );
