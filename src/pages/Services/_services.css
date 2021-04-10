@@ -1,0 +1,40 @@
+.services-image {
+   border-bottom: 3px solid;
+   width: 60%;
+}
+
+.services-wrapper {
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   margin: 40px;
+}
+
+.services-item {
+   padding: 30px;
+   width: auto;
+}
+
+.services-item-text {
+   text-align: justify;
+}
+
+.services-button {
+   display: flex;
+   justify-content: center;
+}
+
+.services-button-text {
+   font-size: 20px;
+   margin: 0;
+}
+
+@media (min-width: 750px) {
+   .services-wrapper {
+      flex-flow: wrap;
+   }
+
+   .services-item {
+      width: 25%;
+   }
+}

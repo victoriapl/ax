@@ -13,7 +13,7 @@ export default function Service() {
 
   useEffect(() => {
     const serviceData = getServiceData(service);
-    const description = serviceData.description.replace(
+    const description = serviceData?.description.replace(
       /\n/g,
       "<br />"
     );
@@ -23,20 +23,20 @@ export default function Service() {
   return (
     <>
       <Banner
-        text={data.text}
-        primaryColor={data.color}
-        secondaryColor={data.textColor}
+        text={data.title}
+        primaryColor={data.primaryColor}
+        secondaryColor={data.secondaryColor}
       />
       <Description
-        primaryColor={data.color}
+        primaryColor={data.primaryColor}
         description={data.description}
         title={data.descriptionTitle}
       />
       {data.sections?.map(section => (
         <Section
           title={section.title}
-          primaryColor={data.color}
-          secondaryColor={data.textColor}
+          primaryColor={data.primaryColor}
+          secondaryColor={data.secondaryColor}
         />
       ))}
     </>
