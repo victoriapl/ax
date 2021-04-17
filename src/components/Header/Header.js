@@ -1,14 +1,14 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import { HAMBURGER_MENU_ICON } from "../../constants";
+import { HAMBURGER_MENU_ICON, NAV, TITLE } from "../../constants";
 import "./_header.css";
 
-export default function Header({ title, navLinks }) {
+export default function Header() {
   const history = useHistory();
   return (
     <header id='header'>
       <h1 className='header-title' onClick={() => history.push("/")}>
-        {title}
+        {TITLE}
       </h1>
       <div className='header-hamburger'>
         <img
@@ -18,7 +18,7 @@ export default function Header({ title, navLinks }) {
         />
       </div>
       <div className='header-links'>
-        {navLinks.map(({ title, url }, i) => (
+        {NAV.map(({ title, url }, i) => (
           <h3
             key={i}
             onClick={() => history.push(url)}

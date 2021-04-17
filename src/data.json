@@ -65,6 +65,20 @@
   },
   "primaryColor": "#50007E",
   "secondaryColor": "#FFFFFF",
+  "contact": [
+      {
+        "icon": "/icons/contact/mail.svg",
+        "text": "alexcasajuana@gmail.com"
+      },
+      {
+        "icon": "/icons/contact/phone.svg",
+        "text": "615 149 113"
+      },
+      {
+        "icon": "/icons/contact/location.svg",
+        "text": "Oficina móvil"
+      }
+    ],
   "services": [
      {
        "title": "CONSULTING",

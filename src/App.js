@@ -4,23 +4,24 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import { NAV, TITLE } from "./constants";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
 import Services from "./pages/Services/Services";
 import Service from "./pages/Service/Service";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
     <div className='App'>
       <Router>
-        <Header title={TITLE} navLinks={NAV} />
+        <Header />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/services' component={Services} />
+          <Route exact path='/contact' component={Contact} />
           <Route exact path='/:service' component={Service} />
         </Switch>
         <Footer />

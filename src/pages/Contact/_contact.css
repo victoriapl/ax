@@ -1,0 +1,33 @@
+.contact {
+   height: 90vh;
+}
+
+.contact-margined {
+   display: flex;
+   flex-direction: column;
+   padding: 50% 10% 0;
+}
+
+.contact-logo {
+   margin: auto;
+   width: 60%;
+}
+
+.contact-data {
+   text-align: justify;
+}
+
+.contact-data-name {
+   margin-left: -30px;
+   width: 100%;
+}
+
+.contact-data-info {
+   display: flex;
+   align-items: center;
+}
+
+.contact-data-info-icon {
+   margin-right: 8px;
+   width: 30px;
+}
