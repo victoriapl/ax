@@ -2,7 +2,7 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
-   margin: 40px;
+   margin: 20px 40px;
 }
 
 .about-images-item {
@@ -27,15 +27,108 @@
 }
 
 .about-profile {
-   display: flex;
-   justify-content: center;
    margin: 60px;
 }
 
-.about-profile-img {
+.about-profile-img-wrapper {
+   border-bottom: 3px solid;
+   padding-bottom: 10px;
+}
+
+.about-profile-img-src {
    background-size: cover;
    border: 3px solid;
    border-radius: 50%;
    height: 150px;
+   margin: auto;
    width: 150px;
+}
+
+.about-profile-name {
+   font-size: 26px;
+   font-weight: lighter;
+   margin-bottom: 0;
+}
+
+
+.about-profile-profession {
+   color: #e6add5;
+   margin-top: 0;
+}
+
+.about-profile-description {
+   text-align: justify;
+}
+
+.about-philosophy {
+   margin: 40px;
+}
+
+.about-philosophy-title {
+   border-bottom: 3px solid;
+   font-weight: lighter;
+}
+
+.about-philosophy-description {
+   text-align: justify;
+   margin-top: 40px;
+   white-space: pre-line;
+}
+
+@media (max-width: 350px) {
+   .about-section-images {
+      flex-wrap: wrap;
+   }
+
+   .about-section-images-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+   }
+}
+
+@media (min-width: 400px) {
+   .about-images-item {
+      width: 70px;
+   }
+}
+
+@media (min-width: 800px) {
+   .about {
+      display: flex;
+      margin: 0 60px;
+   }
+
+   .about-section-images-wrapper {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .about-images-item {
+      width: 80px;
+   }
+
+   .about-profile {
+      margin: 40px 40px 0 0;
+   }
+
+   .about-profile-img-src {
+      height: 180px;
+      width: 180px;
+   }
+
+   .about-philosophy {
+      margin: 40px 100px 100px;
+   }
+
+   .about-philosophy-title {
+      margin: auto;
+      width: 30%;
+   }
+}
+
+@media (min-width: 1000px) {
+   .about-images-item {
+      width: 90px;
+   }
 }

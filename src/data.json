@@ -1,7 +1,10 @@
 {
   "title": "SERVICIOS",
   "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus.",
-  "philosophy": "La filosofía de la empresa, expláyate lo que quieras, los diseños aún no están hechos",
+  "philosophy": {
+    "title": "FILOSOFÍA",
+    "description": "AX es un espacio donde crecer como persona. Creemos que el desarrollo personal se lleva a cabo en distintas áreas de nuestra vida; trabajo, nutrición, deporte, cultura y en la vida privada. Por eso hemos diseñado cada uno de estos espacios para que puedas crecer en cada área hasta donde te propongas. \n \n Ser más eficiente, tener más inteligencia emocional o saber comunicarte. son cosas con que podrás trabajar con nosotros para facilitarte la vida y permitirte ser mejor, y en consecuencia hacer un mundo más libre en el que la gente posea las herramientas precisas para llevar a cabo sus voluntades."
+  },
   "about": {
     "title": "QUIÉN SOY",
     "description": "Me paso el día observando y tratando de resolver necesidades. De ahí, nace AX. Con mi experiencia profesional, he adquirido perspectiva amplia de las necesidades de las personas en los momentos iniciales para llevar a cabo lo que quieren hacer. Basicamente, esas necesidades se centran en herramientas para tirar adelante:",
@@ -56,8 +59,9 @@
       }
     ],
     "text2": "Creo que es muy importante la libertad de juicio y de opinión de forma coherente con unos ideales bien definidos. De este modo las personas pueden desarrollarse coherentemente y centradas. Por eso, en AX trabajamos en la creación de personas independientes y autónomas que sepan tomar decisiones, ordenar su vida y sus prioridades. Con estas acciones, se permite que las personas, desde un acompañamiento, puedan desarrollar su máximo potencial en el área que ellas escojan. \n \n AX es un espacio necesario donde la gente consume sus servicios porque, en el mundo moderno, hay una gran cantidad de estimulos y, generalmente, vienen todos a la vez. Un equipo multidisciplinar es lo que mejor puede ayudar a las personas a que tiren adelante su vida y puedan lograr el futuro que desean.",
-    "name": "Alex Casajuana",
-    "aboutMe": "Emprendedor. Creador de una consultora de nutrición, colaborador en la productora de música Wholestep y en la incubadora de proyectos open future de telefónica.",
+    "name": "ALEX CASAJUANA",
+    "profession": "Asesor",
+    "aboutMe": "Emprendedor. Creador de una consultora de nutrición, colaborador en la productora de música Wholestep y en la incubadora de proyectos open future de telefónica."
   },
   "primaryColor": "#50007E",
   "secondaryColor": "#FFFFFF",

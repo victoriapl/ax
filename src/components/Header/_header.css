@@ -6,17 +6,21 @@
    flex-direction: row-reverse;
    height: 10vh;
    justify-content: space-between;
-   padding: 0 15px;
+   position: fixed;
+   top: 0;
+   width: 100%;
 }
 
 .header-title {
    cursor: pointer;
    font-size: 20px;
    font-weight: 300;
+   margin: 20px;
 }
 
 .header-hamburger {
    filter: invert(1);
+   margin: 20px;
 }
 
 .header-links {
@@ -28,7 +32,7 @@
    #header {
       color: white;
       flex-direction: initial;
-      position: relative;
+      position: fixed;
       top: 0;
       width: 100%;
    }
