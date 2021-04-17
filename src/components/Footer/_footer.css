@@ -1,4 +1,7 @@
 #footer {
+   align-items: center;
    background: #50007E;
+   display: flex;
    height: 10vh;
+   justify-content: center;
 }

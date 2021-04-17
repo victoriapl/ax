@@ -31,3 +31,40 @@
    margin-right: 8px;
    width: 30px;
 }
+
+@media (min-width: 700px) {
+   .contact-margined {
+      padding: 30% 10% 0;
+   }
+
+   .contact-data-name {
+      margin-left: -65px;
+   }
+}
+
+@media (min-width: 800px) {
+   .contact-margined {
+      flex-direction: row;
+      padding: 20%;
+   }
+
+   .contact-logo {
+      width: 40%;
+   }
+
+   .contact-data {
+      margin-top: 60px;
+   }
+}
+
+@media (min-height: 1100px) and (max-width: 1100px) {
+   .contact-margined {
+      padding: 50% 0;
+   }
+}
+
+@media (min-height: 1100px) and (min-width: 1100px) {
+   .contact-margined {
+      padding: 20% 0;
+   }
+}
