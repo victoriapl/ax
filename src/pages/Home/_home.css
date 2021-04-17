@@ -1,3 +1,7 @@
+#root {
+   font-family: 'KumbhSans-Light';
+}
+
 #home {
    display: flex;
    flex-direction: column;
@@ -12,10 +16,17 @@
 }
 
 .home-service-text {
+   font-family: 'KumbhSans-Light';
    font-size: 24px;
    margin: 10px;
    padding: 0 20px;
    text-align: initial;
+}
+
+@media (max-width: 350px) {
+   .home-service-text {
+      font-size: 20px;
+   }
 }
 
 @media (min-width: 700px) {
@@ -34,6 +45,6 @@
    }
 
    .home-service-text {
-      font-size: 30px;
+      font-size: 28px;
    }
 }

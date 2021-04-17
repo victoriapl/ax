@@ -12,7 +12,7 @@ export default function Home() {
           primaryColor={primaryColor}
           secondaryColor={secondaryColor}
           url={url}
-          imgWidth={40}
+          imgWidth={50}
           buttonStyle={"home-service"}
           textStyle={"home-service-text"}
         />

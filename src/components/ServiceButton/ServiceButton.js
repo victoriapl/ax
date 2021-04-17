@@ -22,7 +22,6 @@ export default function ServiceButton({
             text: title,
             style: {
               color: secondaryColor,
-              fontWeight: 300,
             },
             imgWidth: imgWidth,
           })}

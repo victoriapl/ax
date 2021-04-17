@@ -4,6 +4,7 @@
    color: white;
    display: flex;
    flex-direction: row-reverse;
+   height: 10vh;
    justify-content: space-between;
    padding: 0 15px;
 }
@@ -27,7 +28,6 @@
    #header {
       color: white;
       flex-direction: initial;
-      height: 10vh;
       position: relative;
       top: 0;
       width: 100%;

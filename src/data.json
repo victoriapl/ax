@@ -2,8 +2,63 @@
   "title": "SERVICIOS",
   "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus.",
   "philosophy": "La filosofía de la empresa, expláyate lo que quieras, los diseños aún no están hechos",
-  "aboutMe": "Sobre ti, tu carrera profesional, aspiraciones, moral, filosofía de vida,...",
-  "aboutUs": "Sobre la empresa, su creación sus aspiraciones, su metodogolía,...",
+  "about": {
+    "title": "QUIÉN SOY",
+    "description": "Me paso el día observando y tratando de resolver necesidades. De ahí, nace AX. Con mi experiencia profesional, he adquirido perspectiva amplia de las necesidades de las personas en los momentos iniciales para llevar a cabo lo que quieren hacer. Basicamente, esas necesidades se centran en herramientas para tirar adelante:",
+    "images": [
+      {
+        "text": "VISIÓN",
+        "img": "/icons/about/vision.svg"
+      },
+      {
+        "text": "DESARROLLO",
+        "img": "/icons/about/desarrollo.svg"
+      },
+      {
+        "text": "PERSEVERANCIA",
+        "img": "/icons/about/perseverancia.svg"
+      },
+      {
+        "text": "FUERZA",
+        "img": "/icons/about/fuerza.svg"
+      },
+      {
+        "text": "CONFIANZA",
+        "img": "/icons/about/confianza.svg"
+      },
+      {
+        "text": "FE EN UNO MISMO",
+        "img": "/icons/about/fe.svg"
+      }
+    ],
+    "subtitle": "¿Qué busco con la creación de AX?",
+    "text1": "Ayudar y facilitar la vida a aquellas personas que buscan superarse. De esta forma, estas podrán mejorar el presente y, en consecuencia, la sociedad tal y como la conocemos. Por este motivo AX es multidisplinar, pues la sociedad se desarrolla en distintos escenarios que AX decide cubrir con sus servicios:",
+    "text1Images": [
+      {
+        "text": "SALUD",
+        "img": "/icons/about/salud.svg"
+      },
+      {
+        "text": "TRABAJO",
+        "img": "/icons/about/trabajo.svg"
+      },
+      {
+        "text": "ARTE",
+        "img": "/icons/about/arte.svg"
+      },
+      {
+        "text": "DEPORTE",
+        "img": "/icons/about/deporte.svg"
+      },
+      {
+        "text": "VIDA PERSONAL",
+        "img": "icons/about/vida-personal.svg"
+      }
+    ],
+    "text2": "Creo que es muy importante la libertad de juicio y de opinión de forma coherente con unos ideales bien definidos. De este modo las personas pueden desarrollarse coherentemente y centradas. Por eso, en AX trabajamos en la creación de personas independientes y autónomas que sepan tomar decisiones, ordenar su vida y sus prioridades. Con estas acciones, se permite que las personas, desde un acompañamiento, puedan desarrollar su máximo potencial en el área que ellas escojan. \n \n AX es un espacio necesario donde la gente consume sus servicios porque, en el mundo moderno, hay una gran cantidad de estimulos y, generalmente, vienen todos a la vez. Un equipo multidisciplinar es lo que mejor puede ayudar a las personas a que tiren adelante su vida y puedan lograr el futuro que desean.",
+    "name": "Alex Casajuana",
+    "aboutMe": "Emprendedor. Creador de una consultora de nutrición, colaborador en la productora de música Wholestep y en la incubadora de proyectos open future de telefónica.",
+  },
   "primaryColor": "#50007E",
   "secondaryColor": "#FFFFFF",
   "services": [

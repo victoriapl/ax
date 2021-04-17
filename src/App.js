@@ -10,6 +10,7 @@ import Home from "./pages/Home/Home";
 import Services from "./pages/Services/Services";
 import Service from "./pages/Service/Service";
 import Footer from "./components/Footer/Footer";
+import About from "./pages/About/About";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Header title={TITLE} navLinks={NAV} />
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
           <Route exact path='/services' component={Services} />
           <Route exact path='/:service' component={Service} />
         </Switch>
