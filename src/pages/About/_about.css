@@ -62,6 +62,7 @@
 
 .about-philosophy {
    margin: 40px;
+   margin-bottom: 15vh;
 }
 
 .about-philosophy-title {
@@ -118,7 +119,7 @@
    }
 
    .about-philosophy {
-      margin: 40px 100px 100px;
+      margin: 40px 100px 150px;
    }
 
    .about-philosophy-title {

@@ -5,7 +5,7 @@
 .contact-margined {
    display: flex;
    flex-direction: column;
-   padding: 50% 10% 0;
+   padding: 150px 40px 0;
 }
 
 .contact-logo {
@@ -18,34 +18,29 @@
 }
 
 .contact-data-name {
-   margin-left: -30px;
+   margin: auto;
    width: 100%;
 }
 
 .contact-data-info {
-   display: flex;
    align-items: center;
+   display: flex;
 }
 
 .contact-data-info-icon {
    margin-right: 8px;
-   width: 30px;
+   width: 10%;
 }
 
-@media (min-width: 700px) {
-   .contact-margined {
-      padding: 30% 10% 0;
+@media (min-width: 650px) {
+   .contact {
+      align-items: center;
+      display: flex;
    }
 
-   .contact-data-name {
-      margin-left: -65px;
-   }
-}
-
-@media (min-width: 800px) {
    .contact-margined {
       flex-direction: row;
-      padding: 20%;
+      padding: 0 10%;
    }
 
    .contact-logo {
@@ -54,17 +49,5 @@
 
    .contact-data {
       margin-top: 60px;
-   }
-}
-
-@media (min-height: 1100px) and (max-width: 1100px) {
-   .contact-margined {
-      padding: 50% 0;
-   }
-}
-
-@media (min-height: 1100px) and (min-width: 1100px) {
-   .contact-margined {
-      padding: 20% 0;
    }
 }

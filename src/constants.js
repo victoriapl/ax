@@ -3,7 +3,7 @@ export const NAV = [
   { title: "Home", url: "/" },
   { title: "Servicios", url: "/services" },
   { title: "Quien soy", url: "/about" },
-  { title: "Contacto", url: "/contacto" },
+  { title: "Contacto", url: "/contact" },
 ];
 
 export const CUSTOM_TITLE = ({ text, style, imgWidth }) => (
@@ -24,3 +24,4 @@ export const FOOTER_LOGO = "icons/logoBlancoGrueso.svg";
 export const CONSULTING_LOGO = "/icons/logoConsultingLogo.svg";
 export const HAMBURGER_MENU_ICON = "/icons/menu.png";
 export const AX_LETTERS = "/icons/axBlanco.svg";
+export const CONTACT_NAME_ICON = "/icons/contact/contact-name.svg";
