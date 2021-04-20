@@ -49,6 +49,7 @@
    
    .header-links {
       display: flex;
+      font-size: 23px;
       padding-right: 20px;
    }
    

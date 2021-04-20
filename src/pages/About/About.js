@@ -6,7 +6,7 @@ import "./_about.css";
 
 export default function About() {
   return (
-    <div>
+    <div className='about-view'>
       <Description
         primaryColor={primaryColor}
         description={about.description}

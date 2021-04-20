@@ -34,7 +34,7 @@ export default function Services() {
               primaryColor={service.primaryColor}
               secondaryColor={service.secondaryColor}
               url={service.url}
-              imgWidth={30}
+              imgWidth={35}
               buttonStyle={"services-button"}
               textStyle={"services-button-text"}
             />
