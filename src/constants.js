@@ -24,4 +24,3 @@ export const FOOTER_LOGO = "icons/logoBlancoGrueso.svg";
 export const CONSULTING_LOGO = "/icons/logoConsultingLogo.svg";
 export const HAMBURGER_MENU_ICON = "/icons/menu.png";
 export const AX_LETTERS = "/icons/axBlanco.svg";
-export const CONTACT_NAME_ICON = "/icons/contact/contact-name.svg";

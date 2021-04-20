@@ -1,16 +1,16 @@
 .contact {
-   height: 90vh;
-}
-
-.contact-margined {
    display: flex;
    flex-direction: column;
-   padding: 150px 40px 0;
+   height: 90vh;
+   padding: 25vh 15vw;
 }
 
 .contact-logo {
-   margin: auto;
-   width: 60%;
+   background-image: url('../../assets/contactNameMob.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 30%;
+   width: 100%;
 }
 
 .contact-data {
@@ -34,20 +34,18 @@
 
 @media (min-width: 650px) {
    .contact {
-      align-items: center;
-      display: flex;
+      height: 50vh;
+      padding: 23vh 15vw;
    }
-
-   .contact-margined {
-      flex-direction: row;
-      padding: 0 10%;
-   }
-
    .contact-logo {
-      width: 40%;
+      background-image: url('../../assets/contactNameDkt.svg');
+      background-position: center;
+      height: 45%;
    }
 
    .contact-data {
-      margin-top: 60px;
+      font-size: 24px;
+      margin-left: 36%;
+      margin-top: 30px;
    }
 }
