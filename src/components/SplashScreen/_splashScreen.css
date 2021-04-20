@@ -1,0 +1,27 @@
+.splash {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   justify-content: center;
+}
+
+.splash-logo {
+   width: 50%;
+}
+
+.splash-text {
+   color: white;
+   font-size: 2rem;
+}
+
+@media (min-width: 700px) {
+   .splash-logo {
+      width: 30%;
+   }
+
+   .splash-text {
+      color: white;
+      font-size: 5rem;
+   }
+}
