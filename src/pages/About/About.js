@@ -14,42 +14,11 @@ export default function About() {
       />
       <div className='about'>
         <div className='about-content'>
-          <div className='about-images'>
-            {about.images.map(({ text, img }) => (
-              <div>
-                <img
-                  className='about-images-item'
-                  src={img}
-                  alt={text}
-                />
-                <p
-                  style={{ color: primaryColor }}
-                  className='about-images-text'>
-                  {text}
-                </p>
-              </div>
-            ))}
-          </div>
+          <div className='about-images1'></div>
           <div className='about-section'>
             <p style={{ color: primaryColor }}>{about.subtitle}</p>
             <p>{about.text1}</p>
-            {/* IMAGENES */}
-            <div className='about-section-images'>
-              {about.text1Images.map(({ text, img }) => (
-                <div className='about-section-images-wrapper'>
-                  <img
-                    className='about-images-item'
-                    src={img}
-                    alt={text}
-                  />
-                  <span
-                    style={{ color: primaryColor }}
-                    className='about-images-text'>
-                    {text}
-                  </span>
-                </div>
-              ))}
-            </div>
+            <div className='about-images2'></div>
             <p>{about.text2}</p>
           </div>
         </div>
@@ -61,7 +30,6 @@ export default function About() {
             <div
               style={{
                 borderColor: primaryColor,
-                backgroundImage: "url(/icons/about/testProfile.png)",
               }}
               className={"about-profile-img-src"}></div>
           </div>

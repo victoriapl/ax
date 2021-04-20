@@ -8,32 +8,6 @@
   "about": {
     "title": "QUIÉN SOY",
     "description": "Me paso el día observando y tratando de resolver necesidades. De ahí, nace AX. Con mi experiencia profesional, he adquirido perspectiva amplia de las necesidades de las personas en los momentos iniciales para llevar a cabo lo que quieren hacer. Basicamente, esas necesidades se centran en herramientas para tirar adelante:",
-    "images": [
-      {
-        "text": "VISIÓN",
-        "img": "/icons/about/vision.svg"
-      },
-      {
-        "text": "DESARROLLO",
-        "img": "/icons/about/desarrollo.svg"
-      },
-      {
-        "text": "PERSEVERANCIA",
-        "img": "/icons/about/perseverancia.svg"
-      },
-      {
-        "text": "FUERZA",
-        "img": "/icons/about/fuerza.svg"
-      },
-      {
-        "text": "CONFIANZA",
-        "img": "/icons/about/confianza.svg"
-      },
-      {
-        "text": "FE EN UNO MISMO",
-        "img": "/icons/about/fe.svg"
-      }
-    ],
     "subtitle": "¿Qué busco con la creación de AX?",
     "text1": "Ayudar y facilitar la vida a aquellas personas que buscan superarse. De esta forma, estas podrán mejorar el presente y, en consecuencia, la sociedad tal y como la conocemos. Por este motivo AX es multidisplinar, pues la sociedad se desarrolla en distintos escenarios que AX decide cubrir con sus servicios:",
     "text1Images": [
