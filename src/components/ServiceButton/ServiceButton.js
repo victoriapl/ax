@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { CUSTOM_TITLE } from "../../constants";
 
 export default function ServiceButton({
+  index,
   title,
   primaryColor,
   secondaryColor,
@@ -13,7 +14,7 @@ export default function ServiceButton({
 }) {
   return (
     <div
-      key={title}
+      key={index}
       className={buttonStyle}
       style={{ background: primaryColor }}>
       <Link to={`/${url}`} style={{ textDecoration: "none" }}>

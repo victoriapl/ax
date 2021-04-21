@@ -7,8 +7,8 @@ export default function Contact() {
     <div className='contact'>
       <div className='contact-logo'></div>
       <div className='contact-data'>
-        {contact.map(({ icon, text }) => (
-          <div className='contact-data-info'>
+        {contact.map(({ icon, text }, i) => (
+          <div className='contact-data-info' key={i}>
             <img
               src={icon}
               alt={"icon"}

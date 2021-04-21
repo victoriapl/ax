@@ -23,6 +23,12 @@
    text-align: justify;
 }
 
+@media (max-width: 340px) {
+   .description-title-text {
+      font-size: 25px;
+   }
+}
+
 @media (min-width: 700px) {
    .description {
       margin: 0 100px;

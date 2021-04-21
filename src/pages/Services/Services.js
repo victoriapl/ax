@@ -18,8 +18,8 @@ export default function Services() {
         title={title}
       />
       <div className='services-wrapper'>
-        {services.map(service => (
-          <div className='services-item'>
+        {services.map((service, i) => (
+          <div className='services-item' key={i}>
             <img
               src={service.image}
               className='services-image'

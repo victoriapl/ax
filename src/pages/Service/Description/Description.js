@@ -17,7 +17,7 @@ export default function Description({
             color: primaryColor,
             borderBottom: `3px solid ${primaryColor}`,
           }}>
-          <img src={LOGO} alt={"logo"} width={100} />
+          <img src={LOGO} alt={"logo"} width={70} />
           {title}
         </h3>
       </div>

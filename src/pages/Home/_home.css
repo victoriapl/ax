@@ -43,6 +43,7 @@
 
    .home-service {
       display: flex;
+      max-width: 650px;
       padding-left: 10%;
    }
 
