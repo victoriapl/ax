@@ -1,18 +1,19 @@
 import React from "react";
-import { CUSTOM_TITLE } from "../../constants";
-import logo from "../../logo.svg";
+import { AX_LETTERS, FOOTER_LOGO } from "../../constants";
 import "./_banner.css";
 
 export default function Banner({ text, primaryColor, secondaryColor }) {
   return (
     <div className='banner' style={{ backgroundColor: primaryColor }}>
-      <img src={logo} className='App-logo' alt='logo' />
-      <p className='banner-title'>
-        {CUSTOM_TITLE({
-          text,
-          style: { color: secondaryColor },
-        })}
-      </p>
+      <img src={FOOTER_LOGO} className='banner-logo' alt='logo' />
+      <span className='banner-title'>
+        <img
+          src={AX_LETTERS}
+          className='banner-title-icon'
+          alt={"AX"}
+        />{" "}
+        <span style={{ color: secondaryColor }}>{text}</span>
+      </span>
     </div>
   );
 }

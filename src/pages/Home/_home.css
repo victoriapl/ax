@@ -32,18 +32,21 @@
 
 @media (min-width: 700px) {
    #home {
+      align-items: center;
       background-image: url('../../assets/logoBackground.svg');
       background-position: center;
       background-position-x: 60%;
       background-position-y: 25%;
       background-repeat: no-repeat;
       background-size: 1450px;
+      display: flex;
       padding: 0 25%;
    }
 
    .home-service {
       display: flex;
       max-width: 650px;
+      min-width: 500px;
       padding-left: 10%;
    }
 

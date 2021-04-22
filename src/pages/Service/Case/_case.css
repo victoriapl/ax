@@ -1,0 +1,27 @@
+.case-wrapper {
+   font-weight: normal;
+   margin: 10% 20%;
+}
+
+.case-description {
+   border-top: 2px solid;
+   padding-top: 15px;
+   text-align: justify;
+   white-space: pre-wrap;
+}
+
+.case-name, .case-profession {
+   font-weight: normal;
+   margin: 0;
+}
+
+.case-quote {
+   font-weight: bold;
+}
+
+@media (min-width: 700px) {
+   .case-wrapper {
+      margin: 3%;
+      width: 33%;
+   }
+}

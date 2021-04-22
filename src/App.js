@@ -20,8 +20,9 @@ function App() {
   useEffect(() => {
     setInterval(() => {
       setLoading(false);
-    }, 1000);
+    }, 1500);
   }, []);
+
   return (
     <div className='App'>
       {loading ? (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./_section.css";
 
 export default function Section({
@@ -7,13 +7,28 @@ export default function Section({
   secondaryColor,
   leftArrow,
   downArrow,
+  index,
 }) {
+  const [open, setOpen] = useState(false);
   return (
-    <div className='section' style={{ backgroundColor: primaryColor }}>
-      <p className='section-title' style={{ color: secondaryColor }}>
-        {section.title}
-      </p>
-      <img src={downArrow} alt={"arrow"} width={50} />
-    </div>
+    <>
+      <div
+        onClick={() => setOpen(!open)}
+        className='section'
+        key={index}
+        style={{ backgroundColor: primaryColor }}>
+        <p className='section-title' style={{ color: secondaryColor }}>
+          {section.title}
+        </p>
+        <img
+          src={open ? downArrow : leftArrow}
+          alt={"arrow"}
+          width={50}
+        />
+      </div>
+      {open && (
+        <div className='section-description'>{section.description}</div>
+      )}
+    </>
   );
 }

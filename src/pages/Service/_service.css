@@ -1,0 +1,23 @@
+.service {
+   margin: 10vh 0 15vh 0;
+}
+
+.service .description-title-text {
+   font-size: 30px;
+}
+
+.service .description-title-text img {
+   width: 50px;
+}
+
+.service-sections {
+   margin-top: 80px;
+}
+
+@media (min-width: 700px) {
+   .service-cases {
+      display: flex;
+      flex-direction: row;
+      margin: 20px 80px;
+   }
+}
