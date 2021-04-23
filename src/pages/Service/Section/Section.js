@@ -7,7 +7,6 @@ export default function Section({
   secondaryColor,
   leftArrow,
   downArrow,
-  index,
 }) {
   const [open, setOpen] = useState(false);
   return (
@@ -15,7 +14,6 @@ export default function Section({
       <div
         onClick={() => setOpen(!open)}
         className='section'
-        key={index}
         style={{ backgroundColor: primaryColor }}>
         <p className='section-title' style={{ color: secondaryColor }}>
           {section.title}

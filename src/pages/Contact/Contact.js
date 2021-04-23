@@ -1,10 +1,15 @@
 import React from "react";
-import { contact, primaryColor } from "../../data.json";
+import { contact } from "../../data.json";
 import "./_contact.css";
 
-export default function Contact() {
+export default function Contact({
+  primaryColor,
+  secondaryColor = "white",
+}) {
   return (
-    <div className='contact'>
+    <div
+      className='contact'
+      style={{ backgroundColor: secondaryColor }}>
       <div className='contact-logo'></div>
       <div className='contact-data'>
         {contact.map(({ icon, text }, i) => (

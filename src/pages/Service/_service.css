@@ -4,6 +4,7 @@
 
 .service .description-title-text {
    font-size: 30px;
+   width: 100%;
 }
 
 .service .description-title-text img {
@@ -14,10 +15,23 @@
    margin-top: 80px;
 }
 
+.service .contact {
+   height: 40vh;
+   padding: 4vh 12vw;
+}
+
 @media (min-width: 700px) {
    .service-cases {
       display: flex;
       flex-direction: row;
       margin: 20px 80px;
+   }
+
+   .service .description-title-text {
+      width: auto;
+   }
+
+   .service-members {
+      display: flex;
    }
 }

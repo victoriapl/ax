@@ -9,6 +9,8 @@ import { primaryColor } from "../../data.json";
 import "./_service.css";
 import Section from "./Section/Section";
 import Case from "./Case/Case";
+import Contact from "../Contact/Contact";
+import Member from "./Member/Member";
 
 export default function Service() {
   const { service } = useParams();
@@ -54,14 +56,15 @@ export default function Service() {
       {/* SECTIONS */}
       <div className='service-sections'>
         {data.sections?.map((section, i) => (
-          <Section
-            section={section}
-            primaryColor={data.primaryColor}
-            secondaryColor={data.secondaryColor}
-            leftArrow={data.leftArrow}
-            downArrow={data.downArrow}
-            index={i}
-          />
+          <React.Fragment key={i}>
+            <Section
+              section={section}
+              primaryColor={data.primaryColor}
+              secondaryColor={data.secondaryColor}
+              leftArrow={data.leftArrow}
+              downArrow={data.downArrow}
+            />
+          </React.Fragment>
         ))}
       </div>
 
@@ -77,36 +80,53 @@ export default function Service() {
             { icon, name, profession, description, quote, genre },
             index
           ) => (
-            <Case
-              data={{
-                icon,
-                name,
-                profession,
-                description,
-                quote,
-                genre,
-              }}
-              primaryColor={data.primaryColor}
-              secondaryColor={data.secondaryColor}
-              index={index}
-              femaleIcon={data.successfulCases.femaleIcon}
-              maleIcon={data.successfulCases.maleIcon}
-            />
+            <React.Fragment key={index}>
+              <Case
+                data={{
+                  icon,
+                  name,
+                  profession,
+                  description,
+                  quote,
+                  genre,
+                }}
+                primaryColor={data.primaryColor}
+                secondaryColor={data.secondaryColor}
+                femaleIcon={data.successfulCases.femaleIcon}
+                maleIcon={data.successfulCases.maleIcon}
+              />
+            </React.Fragment>
           )
         )}
       </div>
+      {/* CONTACT */}
+      <Contact
+        primaryColor={data.secondaryColor}
+        secondaryColor={data.primaryColor}
+      />
+      {/* TEAM */}
+      <div>
+        <Description
+          primaryColor={data.primaryColor}
+          title={data.team?.title}
+        />
+        <div className='service-members'>
+          {data.team?.members.map(
+            ({ name, profession, image, description }, i) => (
+              <React.Fragment key={i}>
+                <Member
+                  name={name}
+                  profession={profession}
+                  image={image}
+                  description={description}
+                  primaryColor={data.primaryColor}
+                  secondaryColor={data.secondaryColor}
+                />
+              </React.Fragment>
+            )
+          )}
+        </div>
+      </div>
     </div>
   );
-}
-
-{
-  /* /* .services-description-three-visible-rows {
-   max-height: calc(16px * 15);
-} */
-}
-{
-  /* <ExpandableText
-        className={"services-description-three-visible-rows"}>
-        <p>{description}</p>
-      </ExpandableText> */
 }

@@ -5,7 +5,7 @@ import "./_description.css";
 
 export default function Description({
   primaryColor,
-  description,
+  description = "",
   title,
 }) {
   return (
@@ -21,9 +21,11 @@ export default function Description({
           {title}
         </h3>
       </div>
-      <div>
-        <p className='description-text'>{parse(description)}</p>
-      </div>
+      {description && (
+        <div>
+          <p className='description-text'>{parse(description)}</p>
+        </div>
+      )}
     </div>
   );
 }

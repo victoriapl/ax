@@ -13,6 +13,8 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import { useEffect, useState } from "react";
 import SplashScreen from "./components/SplashScreen/SplashScreen";
+import { primaryColor } from "./data.json";
+import ScrollIntoView from "./components/ScrollIntoView/ScrollIntoView";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -30,13 +32,20 @@ function App() {
       ) : (
         <Router>
           <Header />
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route exact path='/services' component={Services} />
-            <Route exact path='/contact' component={Contact} />
-            <Route exact path='/:service' component={Service} />
-          </Switch>
+          <ScrollIntoView>
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/about' component={About} />
+              <Route exact path='/services' component={Services} />
+              <Route
+                exact
+                path='/contact'
+                component={Contact}
+                primaryColor={primaryColor}
+              />
+              <Route exact path='/:service' component={Service} />
+            </Switch>
+          </ScrollIntoView>
           <Footer />
         </Router>
       )}

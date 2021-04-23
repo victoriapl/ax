@@ -24,4 +24,10 @@
       margin: 3%;
       width: 33%;
    }
+
+   .case-genre-icon {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: -2%;
+   }
 }

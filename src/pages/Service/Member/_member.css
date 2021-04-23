@@ -1,0 +1,38 @@
+.member {
+  margin: 30px 40px;
+}
+
+.mamber-image-wrapper {
+   margin: 9% 20%;
+}
+
+.member-image {
+   border: 3px solid;
+   border-radius: 50%;
+   width: 100%;
+}
+
+.member-name {
+   border-top: 3px solid;
+   font-size: 20px;
+   font-weight: 300;
+   margin: 0;
+   padding-top: 15px;
+}
+
+.member-profession {
+   font-size: 16px;
+   font-weight: 300;
+   margin: 0;
+}
+
+.member-description {
+   text-align: justify;
+   white-space: pre-wrap;
+}
+
+@media (min-width: 700px) {
+   .member {
+      margin: 30px 40px;
+    }
+}

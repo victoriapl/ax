@@ -98,7 +98,7 @@
           {
            "icon": "/icons/contact/location.svg",
            "name": "ANÓNIMO",
-           "profession": "Doctora en oncología",
+           "profession": "Dra. en oncología",
            "genre": "female",
            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
@@ -113,13 +113,29 @@
          }
         ]
       },
-       "members": [
-         {
-           "name": "Alex Casajuana",
-           "description": "",
-           "image": "jpg/png/svg"
-         }
-       ]
+      "team": {
+        "title": "EQUIPO",
+        "members": [
+          {
+            "name": "LAURA NIUBÓ",
+            "profession": "UX/UI Designer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/lau.png"
+          },
+          {
+            "name": "VICTORIA PLAZA",
+            "profession": "Full stack Developer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/vic.png"
+          },
+          {
+            "name": "ALEX CASAJUANA",
+            "profession": "Full equip",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/testProfile.png"
+          }
+        ]
+      }
      },
      {
        "title": "NUTRICIÓN",
@@ -165,7 +181,7 @@
           {
            "icon": "/icons/contact/location.svg",
            "name": "ANÓNIMO",
-           "profession": "Doctora en oncología",
+           "profession": "Dra. en oncología",
            "genre": "female",
            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
@@ -180,13 +196,29 @@
          }
         ]
       },
-       "members": [
-         {
-           "name": "Alex Casajuana",
-           "description": "",
-           "image": "jpg/png/svg"
-         }
-       ]
+      "team": {
+        "title": "EQUIPO",
+        "members": [
+          {
+            "name": "LAURA NIUBÓ",
+            "profession": "UX/UI Designer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/lau.png"
+          },
+          {
+            "name": "VICTORIA PLAZA",
+            "profession": "Full stack Developer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/vic.png"
+          },
+          {
+            "name": "ALEX CASAJUANA",
+            "profession": "Full equip",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/testProfile.png"
+          }
+        ]
+      }
      },
      {
        "title": "DEVELOPEMENT",
@@ -232,7 +264,7 @@
           {
            "icon": "/icons/contact/location.svg",
            "name": "ANÓNIMO",
-           "profession": "Doctora en oncología",
+           "profession": "Dra. en oncología",
            "genre": "female",
            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
@@ -247,13 +279,29 @@
          }
         ]
       },
-       "members": [
-         {
-           "name": "Alex Casajuana",
-           "description": "",
-           "image": "jpg/png/svg"
-         }
-       ]
+      "team": {
+        "title": "EQUIPO",
+        "members": [
+          {
+            "name": "LAURA NIUBÓ",
+            "profession": "UX/UI Designer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/lau.png"
+          },
+          {
+            "name": "VICTORIA PLAZA",
+            "profession": "Full stack Developer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/vic.png"
+          },
+          {
+            "name": "ALEX CASAJUANA",
+            "profession": "Full equip",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/testProfile.png"
+          }
+        ]
+      }
      },
      {
        "title": "SPORT",
@@ -299,7 +347,7 @@
            {
             "icon": "/icons/contact/location.svg",
             "name": "ANÓNIMO",
-            "profession": "Doctora en oncología",
+            "profession": "Dra. en oncología",
             "genre": "female",
             "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
             "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
@@ -314,13 +362,29 @@
           }
          ]
        },
-       "members": [
-         {
-           "name": "Alex Casajuana",
-           "description": "",
-           "image": "jpg/png/svg"
-         }
-       ]
+       "team": {
+        "title": "EQUIPO",
+        "members": [
+          {
+            "name": "LAURA NIUBÓ",
+            "profession": "UX/UI Designer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/lau.png"
+          },
+          {
+            "name": "VICTORIA PLAZA",
+            "profession": "Full stack Developer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/vic.png"
+          },
+          {
+            "name": "ALEX CASAJUANA",
+            "profession": "Full equip",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/testProfile.png"
+          }
+        ]
+      }
      },
      {
        "title": "ART",
@@ -366,7 +430,7 @@
           {
            "icon": "/icons/contact/location.svg",
            "name": "ANÓNIMO",
-           "profession": "Doctora en oncología",
+           "profession": "Dra. en oncología",
            "genre": "female",
            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
@@ -381,13 +445,29 @@
          }
         ]
       },
-       "members": [
-         {
-           "name": "Alex Casajuana",
-           "description": "",
-           "image": "jpg/png/svg"
-         }
-       ]
+      "team": {
+        "title": "EQUIPO",
+        "members": [
+          {
+            "name": "LAURA NIUBÓ",
+            "profession": "UX/UI Designer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/lau.png"
+          },
+          {
+            "name": "VICTORIA PLAZA",
+            "profession": "Full stack Developer",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/vic.png"
+          },
+          {
+            "name": "ALEX CASAJUANA",
+            "profession": "Full equip",
+            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
+            "image": "/icons/testProfile.png"
+          }
+        ]
+      }
      }
   ]
 }
