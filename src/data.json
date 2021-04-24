@@ -135,7 +135,21 @@
             "image": "/icons/testProfile.png"
           }
         ]
-      }
+      },
+      "contactIcons": [
+        {
+          "icon": "/icons/contact/mail-consulting.svg",
+          "text": "alexcasajuana@gmail.com"
+        },
+        {
+          "icon": "/icons/contact/phone-consulting.svg",
+          "text": "615 149 113"
+        },
+        {
+          "icon": "/icons/contact/location-consultin.svg",
+          "text": "Oficina móvil"
+        }
+      ]
      },
      {
        "title": "NUTRICIÓN",
@@ -218,7 +232,21 @@
             "image": "/icons/testProfile.png"
           }
         ]
-      }
+      },
+      "contactIcons": [
+        {
+          "icon": "/icons/contact/mail-nutrition.svg",
+          "text": "alexcasajuana@gmail.com"
+        },
+        {
+          "icon": "/icons/contact/phone-nutrition.svg",
+          "text": "615 149 113"
+        },
+        {
+          "icon": "/icons/contact/location-nutrition.svg",
+          "text": "Oficina móvil"
+        }
+      ]
      },
      {
        "title": "DEVELOPEMENT",
@@ -301,7 +329,21 @@
             "image": "/icons/testProfile.png"
           }
         ]
-      }
+      },
+      "contactIcons": [
+        {
+          "icon": "/icons/contact/mail-developement.svg",
+          "text": "alexcasajuana@gmail.com"
+        },
+        {
+          "icon": "/icons/contact/phone-developement.svg",
+          "text": "615 149 113"
+        },
+        {
+          "icon": "/icons/contact/location-developement.svg",
+          "text": "Oficina móvil"
+        }
+      ]
      },
      {
        "title": "SPORT",
@@ -384,7 +426,21 @@
             "image": "/icons/testProfile.png"
           }
         ]
-      }
+      },
+      "contactIcons": [
+        {
+          "icon": "/icons/contact/mail-sport.svg",
+          "text": "alexcasajuana@gmail.com"
+        },
+        {
+          "icon": "/icons/contact/phone-sport.svg",
+          "text": "615 149 113"
+        },
+        {
+          "icon": "/icons/contact/location-sport.svg",
+          "text": "Oficina móvil"
+        }
+      ]
      },
      {
        "title": "ART",
@@ -467,7 +523,21 @@
             "image": "/icons/testProfile.png"
           }
         ]
-      }
+      },
+      "contactIcons": [
+        {
+          "icon": "/icons/contact/mail-art.svg",
+          "text": "alexcasajuana@gmail.com"
+        },
+        {
+          "icon": "/icons/contact/phone-art.svg",
+          "text": "615 149 113"
+        },
+        {
+          "icon": "/icons/contact/location-art.svg",
+          "text": "Oficina móvil"
+        }
+      ]
      }
   ]
 }

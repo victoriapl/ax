@@ -103,6 +103,7 @@ export default function Service() {
       <Contact
         primaryColor={data.secondaryColor}
         secondaryColor={data.primaryColor}
+        serviceContact={data.contactIcons}
       />
       {/* TEAM */}
       <div>

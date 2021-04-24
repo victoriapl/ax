@@ -5,14 +5,16 @@ import "./_contact.css";
 export default function Contact({
   primaryColor,
   secondaryColor = "white",
+  serviceContact = undefined,
 }) {
+  const contactInfo = serviceContact ? serviceContact : contact;
   return (
     <div
       className='contact'
       style={{ backgroundColor: secondaryColor }}>
       <div className='contact-logo'></div>
       <div className='contact-data'>
-        {contact.map(({ icon, text }, i) => (
+        {contactInfo.map(({ icon, text }, i) => (
           <div className='contact-data-info' key={i}>
             <img
               src={icon}
