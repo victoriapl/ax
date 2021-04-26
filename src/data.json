@@ -70,17 +70,29 @@
          "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus, pulvinar laoreet convallis mattis volutpat egestas fermentum. Parturient neque molestie lacinia convallis egestas accumsan primis, pulvinar quis massa vivamus non cubilia conubia torquent, urna placerat litora eros venenatis tellus.\n\nBibendum potenti porttitor nisl facilisis condimentum mi turpis fermentum viverra maecenas massa ultricies eu, hac porta proin taciti nascetur dis volutpat donec ridiculus purus torquent phasellus. Fusce sed odio suscipit penatibus ante eleifend curae in vitae pulvinar, ad posuere per nullam lobortis praesent potenti pellentesque sapien, enim mus himenaeos primis libero litora justo nisl maecenas. Neque eget placerat nibh gravida malesuada venenatis sagittis enim curabitur metus class, semper ultricies magnis felis lectus velit ac tempus libero nullam proin tristique, facilisi habitant ridiculus phasellus blandit senectus maecenas tincidunt condimentum nulla.",
        "sections": [
          {
-           "title": "DIRECCIÓN ESTRATÉGICA",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-         },
-         {
            "title": "IMAGEN CORPORTATIVA",
+           "icon": "/icons/service/section/imgCorpIcon.svg",
+           "darkerIcon": "/icons/service/section/imgCorpIconDarker.svg",
            "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
          },
          {
-           "title": "POLÍTICA",
+           "title": "ACOMPAÑAMIENTO",
+           "icon": "/icons/service/section/acompIcon.svg",
+           "darkerIcon": "/icons/service/section/acompIconDarker.svg",
            "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-         }
+         },
+         {
+           "title": "MARKETING",
+           "icon": "/icons/service/section/marketingIcon.svg",
+           "darkerIcon": "/icons/service/section/marketingIconDarker.svg",
+           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+         },
+         {
+          "title": "WEB",
+          "icon": "/icons/service/section/webIcon.svg",
+          "darkerIcon": "/icons/service/section/webIconDarker.svg",
+          "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
        ],
        "successfulCases": {
         "title": "CASOS DE ÉXITO",
@@ -166,14 +178,20 @@
        "sections": [
          {
            "title": "ADELGAZAMIENTO",
+           "icon": "/icons/service/section/adelgazar.svg",
+           "darkerIcon": "/icons/service/section/adelgazarDarker.svg",
            "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
          },
          {
            "title": "MUSCULACIÓN",
+           "icon": "/icons/service/section/muscular.svg",
+           "darkerIcon": "/icons/service/section/muscularDarker.svg",
            "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
          },
          {
            "title": "SALUD",
+           "icon": "/icons/service/section/salud.svg",
+           "darkerIcon": "/icons/service/section/saludDarker.svg",
            "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
          }
        ],

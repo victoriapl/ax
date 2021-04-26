@@ -11,7 +11,13 @@
    font-weight: 300;
 }
 
+.section-img {
+   display: none;
+}
+
 .section-description {
+   display: flex;
+   flex-direction: column;
    margin: 40px 40px;
    text-align: justify;
    white-space: pre-line;
@@ -24,11 +30,18 @@
    }
 
    .section-title {
+      align-items: center;
+      display: flex;
       font-size: 30px;
       margin-left: 15%;
    }
 
+   .section-img {
+      display: initial;
+   }
+
    .section-description {
+      flex-direction: row;
       margin: 35px 100px;
    }
 }
