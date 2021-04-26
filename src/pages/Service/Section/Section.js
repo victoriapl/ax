@@ -16,7 +16,13 @@ export default function Section({
         className='section'
         style={{ backgroundColor: primaryColor }}>
         <p className='section-title' style={{ color: secondaryColor }}>
-          {section.title}
+          <img
+            src={section.icon}
+            width={70}
+            alt='section'
+            className='section-img'
+          />
+          <span>{section.title}</span>
         </p>
         <img
           src={open ? downArrow : leftArrow}
@@ -25,7 +31,15 @@ export default function Section({
         />
       </div>
       {open && (
-        <div className='section-description'>{section.description}</div>
+        <div className='section-description'>
+          <img
+            src={section.darkerIcon}
+            style={{ margin: "auto" }}
+            width={150}
+            alt='section'
+          />
+          <span>{section.description}</span>
+        </div>
       )}
     </>
   );
