@@ -6,11 +6,34 @@
 }
 
 .contact-logo {
-   background-image: url('../../assets/contactNameMob.svg');
    background-repeat: no-repeat;
    background-size: contain;
    height: 100%;
    width: 100%;
+}
+
+.contact-logo-img {
+   background-image: url('../../assets/contactNameMob.svg');
+}
+
+.contact-logo-img-NUTRICIÓN {
+   background-image: url('../../assets/contactNameMobNutrition.svg');
+}
+
+.contact-logo-img-DEVELOPEMENT {
+   background-image: url('../../assets/contactNameMobDevelopement.svg');
+}
+
+.contact-logo-img-CONSULTING {
+   background-image: url('../../assets/contactNameMobConsulting.svg');
+}
+
+.contact-logo-img-SPORT {
+   background-image: url('../../assets/contactNameMobSport.svg');
+}
+
+.contact-logo-img-ART {
+   background-image: url('../../assets/contactNameMobArt.svg');
 }
 
 .contact-data {
@@ -37,10 +60,34 @@
       height: 50vh;
       padding: 21vh 15vw;
    }
+
    .contact-logo {
-      background-image: url('../../assets/contactNameDkt.svg');
       background-position: center;
       height: 45%;
+   }
+
+   .contact-logo-img {
+      background-image: url('../../assets/contactNameDkt.svg');
+   }
+
+   .contact-logo-img-NUTRICIÓN {
+      background-image: url('../../assets/contactNameDktNutrition.svg');
+   }
+
+   .contact-logo-img-CONSULTING {
+      background-image: url('../../assets/contactNameDktConsulting.svg');
+   }
+
+   .contact-logo-img-DEVELOPEMENT {
+      background-image: url('../../assets/contactNameDktDevelopement.svg');
+   }
+
+   .contact-logo-img-SPORT {
+      background-image: url('../../assets/contactNameDktSport.svg');
+   }
+
+   .contact-logo-img-ART {
+      background-image: url('../../assets/contactNameDktArt.svg');
    }
 
    .contact-data {
