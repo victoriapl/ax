@@ -1,5 +1,5 @@
 .service {
-   margin: 10vh 0 15vh 0;
+   margin: 8vh 0 15vh 0;
 }
 
 .service .description-title-text {
@@ -8,7 +8,7 @@
 }
 
 .service .description-title-text img {
-   width: 50px;
+   width: 70px;
 }
 
 .service-sections {
@@ -33,5 +33,6 @@
 
    .service-members {
       display: flex;
+      justify-content: center;
    }
 }

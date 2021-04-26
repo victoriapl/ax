@@ -57,6 +57,7 @@
      {
        "title": "CONSULTING",
        "url": "consulting",
+       "logo": "/icons/consultingLogo.svg",
        "primaryColor": "#052973",
        "secondaryColor": "#00A0CB",
        "borderColor": "#00A0CB",
@@ -119,19 +120,16 @@
           {
             "name": "LAURA NIUBÓ",
             "profession": "UX/UI Designer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/lau.png"
           },
           {
             "name": "VICTORIA PLAZA",
             "profession": "Full stack Developer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/vic.png"
           },
           {
             "name": "ALEX CASAJUANA",
             "profession": "Full equip",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/testProfile.png"
           }
         ]
@@ -154,6 +152,7 @@
      {
        "title": "NUTRICIÓN",
        "url": "nutricion",
+       "logo": "/icons/nutritionLogo.svg",
        "primaryColor": "#0A361D",
        "secondaryColor": "#B1BB20",
        "borderColor": "#B1BB20",
@@ -216,19 +215,16 @@
           {
             "name": "LAURA NIUBÓ",
             "profession": "UX/UI Designer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/lau.png"
           },
           {
             "name": "VICTORIA PLAZA",
             "profession": "Full stack Developer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/vic.png"
           },
           {
             "name": "ALEX CASAJUANA",
             "profession": "Full equip",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/testProfile.png"
           }
         ]
@@ -251,6 +247,7 @@
      {
        "title": "DEVELOPEMENT",
        "url": "developement",
+       "logo": "/icons/developementLogo.svg",
        "primaryColor": "#A90556",
        "secondaryColor": "#FEB9E0",
        "borderColor": "#A90556",
@@ -313,19 +310,16 @@
           {
             "name": "LAURA NIUBÓ",
             "profession": "UX/UI Designer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/lau.png"
           },
           {
             "name": "VICTORIA PLAZA",
             "profession": "Full stack Developer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/vic.png"
           },
           {
             "name": "ALEX CASAJUANA",
             "profession": "Full equip",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/testProfile.png"
           }
         ]
@@ -348,6 +342,7 @@
      {
        "title": "SPORT",
        "url": "sport",
+       "logo": "/icons/sportLogo.svg",
        "primaryColor": "#C53F00",
        "secondaryColor": "#FFC91B",
        "descriptionTitle": "SERVICIOS",
@@ -410,19 +405,16 @@
           {
             "name": "LAURA NIUBÓ",
             "profession": "UX/UI Designer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/lau.png"
           },
           {
             "name": "VICTORIA PLAZA",
             "profession": "Full stack Developer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/vic.png"
           },
           {
             "name": "ALEX CASAJUANA",
             "profession": "Full equip",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/testProfile.png"
           }
         ]
@@ -445,6 +437,7 @@
      {
        "title": "ART",
        "url": "art",
+       "logo": "/icons/artLogo.svg",
        "primaryColor": "#FFAB1B",
        "secondaryColor": "#732E01",
        "borderColor": "#FFAB1B",
@@ -507,19 +500,16 @@
           {
             "name": "LAURA NIUBÓ",
             "profession": "UX/UI Designer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/lau.png"
           },
           {
             "name": "VICTORIA PLAZA",
             "profession": "Full stack Developer",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/vic.png"
           },
           {
             "name": "ALEX CASAJUANA",
             "profession": "Full equip",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam.",
             "image": "/icons/testProfile.png"
           }
         ]

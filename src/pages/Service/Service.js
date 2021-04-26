@@ -49,9 +49,12 @@ export default function Service() {
         secondaryColor={data.secondaryColor}
       />
       <Description
-        primaryColor={data.primaryColor}
+        primaryColor={
+          data.title === "ART" ? data.secondaryColor : data.primaryColor
+        }
         description={data.description}
         title={data.descriptionTitle}
+        logo={data.logo}
       />
       {/* SECTIONS */}
       <div className='service-sections'>
@@ -70,9 +73,12 @@ export default function Service() {
 
       {/* SUCCESSFUL CASES */}
       <Description
-        primaryColor={data.primaryColor}
+        primaryColor={
+          data.title === "ART" ? data.secondaryColor : data.primaryColor
+        }
         description={data.successfulCases?.description}
         title={data.successfulCases?.title}
+        logo={data.logo}
       />
       <div className='service-cases'>
         {data.successfulCases?.cases?.map(
@@ -108,24 +114,26 @@ export default function Service() {
       {/* TEAM */}
       <div>
         <Description
-          primaryColor={data.primaryColor}
+          primaryColor={
+            data.title === "ART"
+              ? data.secondaryColor
+              : data.primaryColor
+          }
           title={data.team?.title}
+          logo={data.logo}
         />
         <div className='service-members'>
-          {data.team?.members.map(
-            ({ name, profession, image, description }, i) => (
-              <React.Fragment key={i}>
-                <Member
-                  name={name}
-                  profession={profession}
-                  image={image}
-                  description={description}
-                  primaryColor={data.primaryColor}
-                  secondaryColor={data.secondaryColor}
-                />
-              </React.Fragment>
-            )
-          )}
+          {data.team?.members.map(({ name, profession, image }, i) => (
+            <React.Fragment key={i}>
+              <Member
+                name={name}
+                profession={profession}
+                image={image}
+                primaryColor={data.primaryColor}
+                secondaryColor={data.secondaryColor}
+              />
+            </React.Fragment>
+          ))}
         </div>
       </div>
     </div>

@@ -5,10 +5,10 @@
 #home {
    display: flex;
    flex-direction: column;
-   height: 80vh;
+   height: 84vh;
    justify-content: center;
    padding: 0 10%;
-   margin-top: 10vh;
+   margin-top: 8vh;
 }
 
 .home-service {

@@ -57,6 +57,7 @@
 }
 
 .about-profile-description {
+   font-size: 12px;
    text-align: justify;
 }
 
@@ -78,7 +79,7 @@
 
 @media (min-width: 700px) {
    .about-view {
-      font-size: 19px;
+      font-size: 15px;
    }
 
    .about {
@@ -112,7 +113,7 @@
    }
 
    .about-philosophy {
-      margin: 40px 100px 200px;
+      margin: 40px 100px 120px;
    }
 
    .about-philosophy-title {

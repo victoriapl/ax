@@ -1,9 +1,12 @@
 .banner {
-   height: 90vh;
+   display: flex;
+   flex-direction: column;
+   height: 93vh;
+   justify-content: center;
 }
 
 .banner-logo {
-   margin-top: 30%;
+   margin: 0 auto;
    width: 300px;
 }
 
@@ -23,7 +26,6 @@
 
 @media (min-width: 700px) {
    .banner-logo {
-      margin-top: 15vh;
       width: 350px;
    }
 

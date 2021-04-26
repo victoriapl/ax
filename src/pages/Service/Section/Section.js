@@ -21,7 +21,7 @@ export default function Section({
         <img
           src={open ? downArrow : leftArrow}
           alt={"arrow"}
-          width={50}
+          width={40}
         />
       </div>
       {open && (

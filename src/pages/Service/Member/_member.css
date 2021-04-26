@@ -9,6 +9,7 @@
 .member-image {
    border: 3px solid;
    border-radius: 50%;
+   max-width: 200px;
    width: 100%;
 }
 
@@ -24,11 +25,6 @@
    font-size: 16px;
    font-weight: 300;
    margin: 0;
-}
-
-.member-description {
-   text-align: justify;
-   white-space: pre-wrap;
 }
 
 @media (min-width: 700px) {
