@@ -10,7 +10,7 @@ export default function Description({
   logo = LOGO,
 }) {
   return (
-    <div className='description'>
+    <div className='description' id='service-description'>
       <div className='description-title'>
         <h3
           className='description-title-text'

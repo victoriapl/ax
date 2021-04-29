@@ -11,6 +11,22 @@
    width: 100%;
 }
 
+.header-hamburger-menu {
+   background-color: white;
+   height: 92vh;
+   left: 0;
+   position: absolute;
+   top: 8vh;
+   width: 60vw;
+}
+
+.header-hamburger--primary-link {
+   font-size: 22px;
+   margin-left: 20px;
+   padding-left: 5px;
+   text-align: initial;
+}
+
 .header-title {
    cursor: pointer;
    font-size: 20px;

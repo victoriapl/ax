@@ -15,6 +15,7 @@ import { useEffect, useState } from "react";
 import SplashScreen from "./components/SplashScreen/SplashScreen";
 import { primaryColor } from "./data.json";
 import ScrollIntoView from "./components/ScrollIntoView/ScrollIntoView";
+import { NAV, TITLE } from "./constants";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -31,7 +32,7 @@ function App() {
         <SplashScreen />
       ) : (
         <Router>
-          <Header />
+          <Header title={TITLE} navLinks={NAV} />
           <ScrollIntoView>
             <Switch>
               <Route exact path='/' component={Home} />

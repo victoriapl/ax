@@ -1,18 +1,31 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { HAMBURGER_MENU_ICON, NAV, TITLE } from "../../constants";
+import { Link } from "react-scroll";
+import { HAMBURGER_MENU_ICON } from "../../constants";
 import "./_header.css";
 
-export default function Header() {
+export default function Header({
+  navLinks,
+  title,
+  backgroundColor = "",
+  primaryColor = "white",
+}) {
   const history = useHistory();
   const [selected, setSelected] = useState(history.location.pathname);
+  const [hamburgerState, setHamburgerState] = useState(false);
 
   return (
-    <header id='header'>
+    <header
+      id='header'
+      style={{
+        backgroundColor: backgroundColor ? backgroundColor : "#50007E",
+      }}>
       <h1 className='header-title' onClick={() => history.push("/")}>
-        {TITLE}
+        AX | <span style={{ color: primaryColor }}>{title}</span>
       </h1>
-      <div className='header-hamburger'>
+      <div
+        className='header-hamburger'
+        onClick={() => setHamburgerState(!hamburgerState)}>
         <img
           src={HAMBURGER_MENU_ICON}
           width={"35"}
@@ -20,22 +33,61 @@ export default function Header() {
         />
       </div>
       <div className='header-links'>
-        {NAV.map(({ title, url }, i) => (
+        {navLinks.map(({ title, url }, i) => (
           <h3
             key={i}
             onClick={() => {
-              setSelected(url);
-              history.push(url);
+              setSelected(title);
+              if (!backgroundColor) history.push(url);
             }}
             style={{
-              borderBottom: selected === url ? "2px solid white" : "",
+              borderBottom: selected === title ? "2px solid white" : "",
               textDecoration: "none",
             }}
             className='header-link-item'>
-            {title}
+            {backgroundColor ? (
+              <Link to={url} smooth={true}>
+                {title}
+              </Link>
+            ) : (
+              title
+            )}
           </h3>
         ))}
       </div>
+      {hamburgerState && (
+        <div
+          className='header-hamburger-menu'
+          style={{
+            color: backgroundColor ? primaryColor : "#50007E",
+          }}>
+          {navLinks.map(({ title, url }, i) => (
+            <p
+              key={i}
+              onClick={() => {
+                setSelected(title);
+                setHamburgerState(false);
+                if (!backgroundColor) history.push(url);
+              }}
+              style={{
+                borderLeft: selected === title ? "2px solid" : "",
+                textDecoration: "none",
+              }}
+              className='header-hamburger--primary-link'>
+              {backgroundColor ? (
+                <Link
+                  to={url}
+                  onClick={() => setHamburgerState(false)}
+                  smooth={true}>
+                  {title}
+                </Link>
+              ) : (
+                title
+              )}
+            </p>
+          ))}
+        </div>
+      )}
     </header>
   );
 }

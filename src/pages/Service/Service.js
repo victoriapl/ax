@@ -11,6 +11,8 @@ import Section from "./Section/Section";
 import Case from "./Case/Case";
 import Contact from "../Contact/Contact";
 import Member from "./Member/Member";
+import Header from "../../components/Header/Header";
+import { SERVICE_NAV } from "../../constants";
 
 export default function Service() {
   const { service } = useParams();
@@ -26,15 +28,10 @@ export default function Service() {
   }, [service]);
 
   useEffect(() => {
-    document.getElementById("header").style.backgroundColor =
-      data.secondaryColor;
     document.getElementById("footer").style.backgroundColor =
       data.secondaryColor;
 
     return () => {
-      document.getElementById(
-        "header"
-      ).style.backgroundColor = primaryColor;
       document.getElementById(
         "footer"
       ).style.backgroundColor = primaryColor;
@@ -42,7 +39,13 @@ export default function Service() {
   }, [data]);
 
   return (
-    <div className='service'>
+    <div className='service' id='service-home'>
+      <Header
+        navLinks={SERVICE_NAV}
+        title={data.title}
+        backgroundColor={data.secondaryColor}
+        primaryColor={data.primaryColor}
+      />
       <Banner
         text={data.title}
         primaryColor={data.primaryColor}
@@ -72,38 +75,42 @@ export default function Service() {
       </div>
 
       {/* SUCCESSFUL CASES */}
-      <Description
-        primaryColor={
-          data.title === "ART" ? data.secondaryColor : data.primaryColor
-        }
-        description={data.successfulCases?.description}
-        title={data.successfulCases?.title}
-        logo={data.logo}
-      />
-      <div className='service-cases'>
-        {data.successfulCases?.cases?.map(
-          (
-            { icon, name, profession, description, quote, genre },
-            index
-          ) => (
-            <React.Fragment key={index}>
-              <Case
-                data={{
-                  icon,
-                  name,
-                  profession,
-                  description,
-                  quote,
-                  genre,
-                }}
-                primaryColor={data.primaryColor}
-                secondaryColor={data.secondaryColor}
-                femaleIcon={data.successfulCases.femaleIcon}
-                maleIcon={data.successfulCases.maleIcon}
-              />
-            </React.Fragment>
-          )
-        )}
+      <div id='service-success'>
+        <Description
+          primaryColor={
+            data.title === "ART"
+              ? data.secondaryColor
+              : data.primaryColor
+          }
+          description={data.successfulCases?.description}
+          title={data.successfulCases?.title}
+          logo={data.logo}
+        />
+        <div className='service-cases'>
+          {data.successfulCases?.cases?.map(
+            (
+              { icon, name, profession, description, quote, genre },
+              index
+            ) => (
+              <React.Fragment key={index}>
+                <Case
+                  data={{
+                    icon,
+                    name,
+                    profession,
+                    description,
+                    quote,
+                    genre,
+                  }}
+                  primaryColor={data.primaryColor}
+                  secondaryColor={data.secondaryColor}
+                  femaleIcon={data.successfulCases.femaleIcon}
+                  maleIcon={data.successfulCases.maleIcon}
+                />
+              </React.Fragment>
+            )
+          )}
+        </div>
       </div>
       {/* CONTACT */}
       <Contact
@@ -123,7 +130,7 @@ export default function Service() {
           title={data.team?.title}
           logo={data.logo}
         />
-        <div className='service-members'>
+        <div className='service-members' id='service-team'>
           {data.team?.members.map(({ name, profession, image }, i) => (
             <React.Fragment key={i}>
               <Member

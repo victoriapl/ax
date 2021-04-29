@@ -1,9 +1,24 @@
-export const TITLE = "AX | SERVICES";
+export const TITLE = "SERVICES";
 export const NAV = [
   { title: "Home", url: "/" },
   { title: "Servicios", url: "/services" },
   { title: "Quien soy", url: "/about" },
   { title: "Contacto", url: "/contact" },
+];
+export const SERVICES = [
+  "/consulting",
+  "/nutrition",
+  "/art",
+  "/developement",
+  "/sport",
+];
+
+export const SERVICE_NAV = [
+  { title: "Home", url: "service-home" },
+  { title: "Servicio", url: "service-description" },
+  { title: "Casos de éxito", url: "service-success" },
+  { title: "Contacto", url: "service-contact" },
+  { title: "Equipo", url: "service-team" },
 ];
 
 export const CUSTOM_TITLE = ({ text, style, imgWidth }) => (

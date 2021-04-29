@@ -12,6 +12,7 @@ export default function Contact({
   return (
     <div
       className='contact'
+      id='service-contact'
       style={{ backgroundColor: secondaryColor }}>
       <div
         className={`contact-logo contact-logo-img${
