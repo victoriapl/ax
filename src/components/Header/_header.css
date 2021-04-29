@@ -11,6 +11,11 @@
    width: 100%;
 }
 
+.header-hamburger {
+   filter: invert(1);
+   margin: 20px;
+}
+
 .header-hamburger-menu {
    background-color: white;
    height: 92vh;
@@ -27,15 +32,17 @@
    text-align: initial;
 }
 
+.header-hamburger--footer {
+   bottom: 0;
+   margin-left: 20px;
+   position: absolute;
+   text-align: initial;
+}
+
 .header-title {
    cursor: pointer;
    font-size: 20px;
    font-weight: 300;
-   margin: 20px;
-}
-
-.header-hamburger {
-   filter: invert(1);
    margin: 20px;
 }
 

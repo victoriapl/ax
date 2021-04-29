@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-scroll";
-import { HAMBURGER_MENU_ICON } from "../../constants";
+import { HAMBURGER_MENU_ICON, NAV_SERVICES } from "../../constants";
 import "./_header.css";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function Header({
   navLinks,
@@ -86,6 +87,20 @@ export default function Header({
               )}
             </p>
           ))}
+          <div className='header-hamburger--footer'>
+            {NAV_SERVICES.map(({ title, url }, i) => (
+              <p key={i}>
+                <RouterLink
+                  to={url}
+                  style={{
+                    color: backgroundColor ? primaryColor : "#50007E",
+                  }}
+                  onClick={() => setHamburgerState(false)}>
+                  {title}
+                </RouterLink>
+              </p>
+            ))}
+          </div>
         </div>
       )}
     </header>
