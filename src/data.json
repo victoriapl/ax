@@ -1,15 +1,15 @@
 {
   "title": "SERVICIOS",
-  "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus.",
+  "description": "En AX hemos desarrollado un grupo de servicios enfocados en el desarrollo de las personas en distintas áreas de su vida. Trabajo, salud, deporte, arte o vida personal. Te ofrecemos distintas posibilidades ¿En qué área de tu vida te gustaría crecer?",
   "philosophy": {
     "title": "FILOSOFÍA",
     "description": "AX es un espacio donde crecer como persona. Creemos que el desarrollo personal se lleva a cabo en distintas áreas de nuestra vida; trabajo, nutrición, deporte, cultura y en la vida privada. Por eso hemos diseñado cada uno de estos espacios para que puedas crecer en cada área hasta donde te propongas. \n \n Ser más eficiente, tener más inteligencia emocional o saber comunicarte. son cosas con que podrás trabajar con nosotros para facilitarte la vida y permitirte ser mejor, y en consecuencia hacer un mundo más libre en el que la gente posea las herramientas precisas para llevar a cabo sus voluntades."
   },
   "about": {
     "title": "QUIÉN SOY",
-    "description": "Me paso el día observando y tratando de resolver necesidades. De ahí, nace AX. Con mi experiencia profesional, he adquirido perspectiva amplia de las necesidades de las personas en los momentos iniciales para llevar a cabo lo que quieren hacer. Basicamente, esas necesidades se centran en herramientas para tirar adelante:",
+    "description": "Me paso el día observando y tratando de resolver necesidades. De ahí, nace AX. Con mi experiencia profesional, he podido adquirir una perspectiva amplia de las necesidades de las personas en los momentos iniciales para llevar a cabo lo que quieren hacer. Básicamente, esas necesidades se centran en herramientas para tirar adelante:",
     "subtitle": "¿Qué busco con la creación de AX?",
-    "text1": "Ayudar y facilitar la vida a aquellas personas que buscan superarse. De esta forma, estas podrán mejorar el presente y, en consecuencia, la sociedad tal y como la conocemos. Por este motivo AX es multidisplinar, pues la sociedad se desarrolla en distintos escenarios que AX decide cubrir con sus servicios:",
+    "text1": "Ayudar y facilitar la vida a aquellas personas que buscan superarse. De esta forma, estas podrán mejorar el presente y, en consecuencia, la sociedad tal y como la conocemos. Por este motivo AX es multidisciplinar, pues la sociedad se desarrolla en distintos escenarios que AX decide cubrir con sus servicios:",
     "text1Images": [
       {
         "text": "SALUD",
@@ -32,10 +32,10 @@
         "img": "icons/about/vida-personal.svg"
       }
     ],
-    "text2": "Creo que es muy importante la libertad de juicio y de opinión de forma coherente con unos ideales bien definidos. De este modo las personas pueden desarrollarse coherentemente y centradas. Por eso, en AX trabajamos en la creación de personas independientes y autónomas que sepan tomar decisiones, ordenar su vida y sus prioridades. Con estas acciones, se permite que las personas, desde un acompañamiento, puedan desarrollar su máximo potencial en el área que ellas escojan. \n \n AX es un espacio necesario donde la gente consume sus servicios porque, en el mundo moderno, hay una gran cantidad de estimulos y, generalmente, vienen todos a la vez. Un equipo multidisciplinar es lo que mejor puede ayudar a las personas a que tiren adelante su vida y puedan lograr el futuro que desean.",
+    "text2": "Creo que es muy importante la libertad de juicio y de opinión acorde a unos ideales bien definidos. De este modo, las personas tienen la oportunidad de poder desarrollarse de forma centrada y coherente. Por eso, en AX nos dedicamos a trabajar en la creación de personas independientes y autónomas que sepan tomar decisiones, ordenar su vida y sus prioridades. Con estas acciones, se permite que las personas, desde un acompañamiento, puedan desarrollar su máximo potencial en el área que ellas escojan. \n \n AX es un espacio necesario donde la gente consume sus servicios porque, en el mundo moderno, hay una gran cantidad de estímulos y, generalmente , vienen todos a la vez. Un equipo multidisciplinar es lo que mejor puede ayudar a las personas a que tiren adelante su vida y puedan lograr el futuro que desean.",
     "name": "ALEX CASAJUANA",
     "profession": "Asesor",
-    "aboutMe": "Emprendedor. Creador de una consultora de nutrición, colaborador en la productora de música Wholestep y en la incubadora de proyectos open future de telefónica."
+    "aboutMe": "Emprendedor. Ha sido creador de una consultora de nutrición y colaborador en la productora musical Wholestep y en la incubadora de proyectos “open future” de telefónica entre otros."
   },
   "primaryColor": "#50007E",
   "secondaryColor": "#FFFFFF",
@@ -65,64 +65,64 @@
        "image": "/icons/CONSULTING.svg",
        "downArrow": "/icons/arrows/downArrowConsulting.svg",
        "leftArrow": "/icons/arrows/leftArrowConsulting.svg",
-       "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus.",
+       "shortDescription": "¿Qué es lo que necesita tu proyecto? Te ayudaremos a aumentar su valor, a darle un cuerpo y una imagen, te guiaremos para que sea exitoso en el momento de su lanzamiento y sacaremos a la luz las habilidades necesarias para cumplir tus objetivos.",
        "description":
-         "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus, pulvinar laoreet convallis mattis volutpat egestas fermentum. Parturient neque molestie lacinia convallis egestas accumsan primis, pulvinar quis massa vivamus non cubilia conubia torquent, urna placerat litora eros venenatis tellus.\n\nBibendum potenti porttitor nisl facilisis condimentum mi turpis fermentum viverra maecenas massa ultricies eu, hac porta proin taciti nascetur dis volutpat donec ridiculus purus torquent phasellus. Fusce sed odio suscipit penatibus ante eleifend curae in vitae pulvinar, ad posuere per nullam lobortis praesent potenti pellentesque sapien, enim mus himenaeos primis libero litora justo nisl maecenas. Neque eget placerat nibh gravida malesuada venenatis sagittis enim curabitur metus class, semper ultricies magnis felis lectus velit ac tempus libero nullam proin tristique, facilisi habitant ridiculus phasellus blandit senectus maecenas tincidunt condimentum nulla.",
+         "Es un servicio enfocado en capacitar a las personas para el logro de objetivos. Se centra en las herramientas que necesita el cliente para llevar a cabo su objetivo. \n\n El sistema de trabajo consiste en observar tus habilidades. Una vez están claras todas tus capacidades, se te proporcionará un guión de trabajo para complementar tus carencias o reforzar tus puntos fuertes para que puedas lograr el objetivo de la forma más cómoda posible. \n\n A medida que vayas avanzando hacia tu objetivo, se trabajarán los escenarios previstos junto a las habilidades requeridas para avanzar hacia el objetivo de forma adecuada. Al finalizar el proceso, llegarás a ser una persona autónoma con capacidad de adaptación mientras logras tus objetivos y, una vez los consigas, dispondrás de las herramientas para mantenerlos.",
        "sections": [
          {
            "title": "IMAGEN CORPORTATIVA",
            "icon": "/icons/service/section/imgCorpIcon.svg",
            "darkerIcon": "/icons/service/section/imgCorpIconDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"Tu empresa o marca personal necesita una cara visible, fiable, que transmita confianza y te permita generar ventas. Sin una buena imagen, no hay éxito. Nosotros te ofrecemos crear todo tu material gráfico para generar el impacto que desees crear."
          },
          {
            "title": "ACOMPAÑAMIENTO",
            "icon": "/icons/service/section/acompIcon.svg",
            "darkerIcon": "/icons/service/section/acompIconDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"Nadie es perfecto. Hasta el mejor líder puede necesitar ayuda a lo largo de toda su vida profesional. Por eso, ofrecemos un servicio que te permite estar acompañado de profesionales que te ayudan a sacar lo mejor de ti en los momentos más cruciales de todo tu recorrido laboral."
          },
          {
            "title": "MARKETING",
            "icon": "/icons/service/section/marketingIcon.svg",
            "darkerIcon": "/icons/service/section/marketingIconDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"Analizamos tu marketing actual y realizamos desde campañas pequeñas a 3 meses vista hasta planes a 5 años. Comprendemos tu negocio y le aportamos lo necesario para lograr objetivos a corto, medio y largo plazo."
          },
          {
           "title": "WEB",
           "icon": "/icons/service/section/webIcon.svg",
           "darkerIcon": "/icons/service/section/webIconDarker.svg",
-          "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "description":"Todo negocio que desee generar impacto hoy en día requiere estar en la red. Por ello, ofrecemos servicios de UX/UI y Development para poder crear la mejor plataforma digital que se requiera."
         }
        ],
        "successfulCases": {
         "title": "CASOS DE ÉXITO",
-        "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
+        "description": "A lo largo de los años, con los servicios de AX Consulting, hemos podido ayudar a mucha gente a lograr sus objetivos. Algunos casos han sido destacables por el trabajo que se ha llevado a cabo y los resultados que ha obtenido el cliente a partir de este. Algunos clientes se han mantenido en el anonimato para respetar su confidencialidad.",
         "femaleIcon": "/icons/service/cases/female-consulting.svg",
         "maleIcon": "/icons/service/cases/male-consulting.svg",
         "cases": [
           {
-            "icon": "/icons/contact/location.svg",
-            "name": "NURIA JOE",
-            "profession": "Jugadora de Rugby",
+            "icon": "icons/service/section/acompIcon.svg",
+            "name": "ANÓNIMO",
+            "profession": "Team Lead",
             "genre": "female",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+            "description": "Requería de herramientas para poder gestionar a todo su equipo de forma asertiva.",
+            "quote": "“Aprendí a ser más clara y concisa con mis empleados para que así el equipo fuese más eficiente”"
           },
           {
-           "icon": "/icons/contact/location.svg",
+           "icon": "icons/service/section/imgCorpIcon.svg",
            "name": "ANÓNIMO",
-           "profession": "Dra. en oncología",
+           "profession": "Jefa de sección",
            "genre": "female",
-           "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-           "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+           "description": "Requería un acompañamiento y una formación en comunicación para poder afrontar unas oposiciones con un rival directo.",
+           "quote": "“Necesitaba completar un proceso largo y costoso y Alex me dio las herramientas y toda la información necesaria para lograr mi oposición con éxito.”"
          },
          {
-           "icon": "/icons/contact/location.svg",
-           "name": "ANÓNIMO",
-           "profession": "Ciberseguridad",
+           "icon": "icons/service/section/acompIcon.svg",
+           "name": "Pedro Corpas",
+           "profession": "Formador",
            "genre": "female",
-           "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-           "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+           "description": "Necesitaba dinamizar sus productos para ganar mayor volumen de ventas.",
+           "quote": "“A partir de trabajar el escenario de ventas con el cliente, estas han fluido con mayor facilidad y volumen.”"
          }
         ]
       },
@@ -131,18 +131,18 @@
         "members": [
           {
             "name": "LAURA NIUBÓ",
-            "profession": "UX/UI Designer",
-            "image": "/icons/lau.png"
+            "profession": "UX & Graphic Designer",
+            "image": "/icons/team/chicaConsulting3.png"
           },
           {
             "name": "VICTORIA PLAZA",
             "profession": "Full stack Developer",
-            "image": "/icons/vic.png"
+            "image": "/icons/team/chicaConsulting2.png"
           },
           {
             "name": "ALEX CASAJUANA",
-            "profession": "Full equip",
-            "image": "/icons/testProfile.png"
+            "profession": "Asesor",
+            "image": "/icons/team/alexConsulting.png"
           }
         ]
       },
@@ -172,58 +172,58 @@
        "image": "/icons/NUTRITION.svg",
        "downArrow": "/icons/arrows/downArrowNutrition.svg",
        "leftArrow": "/icons/arrows/leftArrowNutrition.svg",
-       "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus.",
+       "shortDescription": "Ordenar tu alimentación, ajustar las necesidades de tu cuerpo, aprender a cuidarte… Si estos son tus objetivos, aquí te ayudaremos a cumplirlos.",
        "description":
-         "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus, pulvinar laoreet convallis mattis volutpat egestas fermentum. Parturient neque molestie lacinia convallis egestas accumsan primis, pulvinar quis massa vivamus non cubilia conubia torquent, urna placerat litora eros venenatis tellus.\n\nBibendum potenti porttitor nisl facilisis condimentum mi turpis fermentum viverra maecenas massa ultricies eu, hac porta proin taciti nascetur dis volutpat donec ridiculus purus torquent phasellus. Fusce sed odio suscipit penatibus ante eleifend curae in vitae pulvinar, ad posuere per nullam lobortis praesent potenti pellentesque sapien, enim mus himenaeos primis libero litora justo nisl maecenas. Neque eget placerat nibh gravida malesuada venenatis sagittis enim curabitur metus class, semper ultricies magnis felis lectus velit ac tempus libero nullam proin tristique, facilisi habitant ridiculus phasellus blandit senectus maecenas tincidunt condimentum nulla.",
+         "Es un servicio que está enfocado en la educación nutricional. Se centra especialmente en dar al paciente herramientas para llevar a cabo una vida saludable sin la dependencia de un especialista. \n\n El sistema de trabajo consiste en mostrarte la realidad en la que tú te encuentras para proporcionarte un plan de trabajo adaptado para que puedas lograr tu objetivo. Estilo de vida, horas de sueño, consumo de alcohol, orden de las comidas o calidad nutricional son puntos a tener en cuenta para el diagnóstico. \n\n A medida que vayas avanzando hacia tu objetivo, se te proporcionarán tips y estrategias para sobrellevar distintas dificultades, tanto presentes como futuras para que, de esta manera, puedas ser independiente. Al finalizar el proceso, serás una persona autónoma con capacidad para adaptarte a tu vida nutricional, con tu objetivo corporal conseguido y con todas las herramientas para mantenerlo.",
        "sections": [
          {
            "title": "ADELGAZAMIENTO",
            "icon": "/icons/service/section/adelgazar.svg",
            "darkerIcon": "/icons/service/section/adelgazarDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"Este objetivo se lleva a cabo mediante la creación de una dieta y hábitos que permitan perder peso de una forma saludable y sencilla. El objetivo se centra en que el paciente aprenda a comer correctamente, mejorando así su estilo de vida."
          },
          {
            "title": "MUSCULACIÓN",
            "icon": "/icons/service/section/muscular.svg",
            "darkerIcon": "/icons/service/section/muscularDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"La musculación se lleva a cabo mediante la creación de una dieta y unos hábitos de vida que permiten el incremento de masa muscular de una forma saludable y sencilla. El objetivo se centra en que el paciente aprenda a comer correctamente para que así pueda mantener la musculatura de forma constante."
          },
          {
            "title": "SALUD",
            "icon": "/icons/service/section/salud.svg",
            "darkerIcon": "/icons/service/section/saludDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"En salud se crea una dieta y unos hábitos de vida que permiten a la persona desarrollar un estado de salud nutricional. Está especializado en personas que desean (o son) vegetarianas, veganas o tienen patologías que requieren dietas específicas para desarrollar un buen estado físico."
          }
        ],
        "successfulCases": {
         "title": "CASOS DE ÉXITO",
-        "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
+        "description": "A lo largo de los años, con los servicios de AX Nutrition, hemos podido ayudar a mucha gente a lograr sus objetivos. Algunos casos han sido destacables por el trabajo que se ha llevado a cabo y los resultados que ha obtenido el cliente a partir de este.",
         "femaleIcon": "/icons/service/cases/female-nutrition.svg",
         "maleIcon": "/icons/service/cases/male-nutrition.svg",
         "cases": [
           {
-            "icon": "/icons/contact/location.svg",
-            "name": "NURIA JOE",
-            "profession": "Jugadora de Rugby",
-            "genre": "female",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+            "icon": "/icons/service/section/muscular.svg",
+            "name": "NACHO MIRALLES",
+            "profession": "Educador Social",
+            "genre": "male",
+            "description": "Quería ganar masa muscular y perder grasa para así poder reducir su peso. Ahora tiene 10kg menos.",
+            "quote": "“Alex me ayudó a ganar claridad y aprendí a comer de forma correcta para lograr mis objetivos.”"
           },
           {
-           "icon": "/icons/contact/location.svg",
-           "name": "ANÓNIMO",
-           "profession": "Dra. en oncología",
-           "genre": "female",
-           "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-           "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+           "icon": "/icons/service/section/adelgazar.svg",
+           "name": "DANIEL CABREIRO",
+           "profession": "Jefe de Ventas",
+           "genre": "male",
+           "description": "Necesitaba reconducir sus hábitos para salir de la obesidad.",
+           "quote": "“Alex me ayudó a poder ser del todo constante y más perseverante en la pérdida de peso.”"
          },
          {
-           "icon": "/icons/contact/location.svg",
-           "name": "ANÓNIMO",
-           "profession": "Ciberseguridad",
-           "genre": "female",
-           "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-           "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+           "icon": "/icons/service/section/salud.svg",
+           "name": "ALBERT AZEMAR",
+           "profession": "Team Lead",
+           "genre": "male",
+           "description": "Sus ideales le acabaron llevando a ser vegetariano y nosotros le facilitamos las herramientas para que lo llevase de la forma más saludable posible.",
+           "quote": "“Alex me ayudó a poder llevar una dieta saludable que se adaptara a mi estilo de vida.“"
          }
         ]
       },
@@ -231,19 +231,9 @@
         "title": "EQUIPO",
         "members": [
           {
-            "name": "LAURA NIUBÓ",
-            "profession": "UX/UI Designer",
-            "image": "/icons/lau.png"
-          },
-          {
-            "name": "VICTORIA PLAZA",
-            "profession": "Full stack Developer",
-            "image": "/icons/vic.png"
-          },
-          {
             "name": "ALEX CASAJUANA",
-            "profession": "Full equip",
-            "image": "/icons/testProfile.png"
+            "profession": "Asesor",
+            "image": "/icons/team/alexNutrition.png"
           }
         ]
       },
@@ -273,52 +263,52 @@
        "image": "/icons/DEVELOPMEN.svg",
        "downArrow": "/icons/arrows/downArrowDevelopement.svg",
        "leftArrow": "/icons/arrows/leftArrowDevelopement.svg",
-       "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus.",
+       "shortDescription": "Te ayudamos a ordenar y a tomar decisiones en tu vida de una forma eficiente, sana y beneficiosa para tu persona.",
        "description":
-         "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus, pulvinar laoreet convallis mattis volutpat egestas fermentum. Parturient neque molestie lacinia convallis egestas accumsan primis, pulvinar quis massa vivamus non cubilia conubia torquent, urna placerat litora eros venenatis tellus.\n\nBibendum potenti porttitor nisl facilisis condimentum mi turpis fermentum viverra maecenas massa ultricies eu, hac porta proin taciti nascetur dis volutpat donec ridiculus purus torquent phasellus. Fusce sed odio suscipit penatibus ante eleifend curae in vitae pulvinar, ad posuere per nullam lobortis praesent potenti pellentesque sapien, enim mus himenaeos primis libero litora justo nisl maecenas. Neque eget placerat nibh gravida malesuada venenatis sagittis enim curabitur metus class, semper ultricies magnis felis lectus velit ac tempus libero nullam proin tristique, facilisi habitant ridiculus phasellus blandit senectus maecenas tincidunt condimentum nulla.",
+         "Es un servicio enfocado en la capacitación y guía de las personas en su camino vital para completar así los objetivos marcados. \n\n El sistema de trabajo consiste en observar en qué momento vital te encuentras para poder guiarte hacia los aprendizajes que necesitas para trascender en tu vida. Eliminar el ego, ganar visión, destruir todos los apegos, dependencia, integridad, amor propio o desarrollar un pensamiento positivo son partes importantes del trabajo a realizar. \n\n Mediante las herramientas proporcionadas, sabrás dirigir y llevar a cabo tu vida en el presente y dispondrás de metodologías para ir resolviendo los escenarios venideros de forma asertiva y empoderada.",
        "sections": [
          {
            "title": "APRENDIZAJE",
            "icon": "/icons/service/section/aprendizaje.svg",
            "darkerIcon": "/icons/service/section/aprendizajeDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"Para avanzar y trascender en nuestra vida, requerimos conocimientos. Estos los podemos obtener de terceros o de nosotros mismos. Nosotros te enseñaremos a localizar, entender y resolver estos aprendizajes. A su vez, te capacitamos para que puedas llevarlo a cabo tú solo."
          },
          {
            "title": "CAMINO VITAL",
            "icon": "/icons/service/section/camino.svg",
            "darkerIcon": "/icons/service/section/caminoDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"Cada uno tiene su propio camino y nadie más lo puede recorrer. En este proceso se expresan dificultades, aprendizajes, adversidades… que debemos asimilar para trascender. Nosotros te acompañaremos y te guiaremos para que lo puedas completar con éxito."
          }
        ],
        "successfulCases": {
         "title": "CASOS DE ÉXITO",
-        "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
+        "description": "A lo largo de los años, con los servicios de AX Development hemos podido ayudar a mucha gente a lograr sus objetivos. Algunos casos han sido destacables por el trabajo que se ha llevado a cabo y los resultados que ha obtenido el cliente a partir de este.",
         "femaleIcon": "/icons/service/cases/female-developement.svg",
         "maleIcon": "/icons/service/cases/male-developement.svg",
         "cases": [
           {
-            "icon": "/icons/contact/location.svg",
-            "name": "NURIA JOE",
-            "profession": "Jugadora de Rugby",
+            "icon": "/icons/service/section/camino.svg",
+            "name": "EVA CUADROS",
+            "profession": "Profesora de yoga",
             "genre": "female",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+            "description": "Necesitaba un cambio en toda su vida. Después de 6 meses de trabajo pudo hacer un giro de 180º.",
+            "quote": "“Alex me dio las herramientas para que yo misma dirija mi vida tal y como quiero.”"
           },
           {
-           "icon": "/icons/contact/location.svg",
-           "name": "ANÓNIMO",
-           "profession": "Dra. en oncología",
+           "icon": "/icons/service/section/aprendizaje.svg",
+           "name": "LARA DE LA CRUZ",
+           "profession": "Interiorista",
            "genre": "female",
-           "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-           "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+           "description": "Buscaba crear una metodología de autotrabajo. Ahora, con todas las herramientas que le proporcionamos, lleva más de un año autotrabajandose y progresando en su vida.",
+           "quote": "“Alex me dio todas las metodologías perfectas para poder afrontar mi realidad de una forma más asertiva y así poder lograr mis objetivos.”"
          },
          {
-           "icon": "/icons/contact/location.svg",
-           "name": "ANÓNIMO",
-           "profession": "Ciberseguridad",
+           "icon": "/icons/service/section/camino.svg",
+           "name": "LAURA NIUBÓ",
+           "profession": "Team Lead",
            "genre": "female",
-           "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-           "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+           "description": "Sus ideas le habían hecho vivir unos escenarios a lo largo de su vida que le perjudicaron. A través de una gran transformación de ideas ha logrado cerrar el círculo vicioso.",
+           "quote": "“Gracias a las indicaciones de Alex, he podido cambiar mi forma de ver y crecer como persona creando así una mejor versión de mi misma que me ha permitido tener más éxito.”"
          }
         ]
       },
@@ -326,19 +316,19 @@
         "title": "EQUIPO",
         "members": [
           {
-            "name": "LAURA NIUBÓ",
-            "profession": "UX/UI Designer",
-            "image": "/icons/lau.png"
-          },
-          {
-            "name": "VICTORIA PLAZA",
-            "profession": "Full stack Developer",
-            "image": "/icons/vic.png"
+            "name": "REYES SERRANO",
+            "profession": "Psicóloga Clínica",
+            "image": "/icons/team/chicaDevelopment1.png"
           },
           {
             "name": "ALEX CASAJUANA",
-            "profession": "Full equip",
-            "image": "/icons/testProfile.png"
+            "profession": "Asesor",
+            "image": "/icons/team/alexxDevelopement.png"
+          },
+          {
+            "name": "NATALI BOGHOSSIAN",
+            "profession": "Psicóloga y Psicoanalista",
+            "image": "/icons/team/chicaDevelopment4.png"
           }
         ]
       },
@@ -368,64 +358,64 @@
        "image": "/icons/SPORT.svg",
        "downArrow": "/icons/arrows/downArrowSport.svg",
        "leftArrow": "/icons/arrows/leftArrowSport.svg",
-       "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus.",
+       "shortDescription": "¿Quieres despegar tu carrera? ¿Quieres enfocar nuevos objetivos? ¿Deseas mejorar tu rendimiento? Nosotros te entregaremos todas las herramientas para completar todos tus retos.",
        "description":
-         "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus, pulvinar laoreet convallis mattis volutpat egestas fermentum. Parturient neque molestie lacinia convallis egestas accumsan primis, pulvinar quis massa vivamus non cubilia conubia torquent, urna placerat litora eros venenatis tellus.\n\nBibendum potenti porttitor nisl facilisis condimentum mi turpis fermentum viverra maecenas massa ultricies eu, hac porta proin taciti nascetur dis volutpat donec ridiculus purus torquent phasellus. Fusce sed odio suscipit penatibus ante eleifend curae in vitae pulvinar, ad posuere per nullam lobortis praesent potenti pellentesque sapien, enim mus himenaeos primis libero litora justo nisl maecenas. Neque eget placerat nibh gravida malesuada venenatis sagittis enim curabitur metus class, semper ultricies magnis felis lectus velit ac tempus libero nullam proin tristique, facilisi habitant ridiculus phasellus blandit senectus maecenas tincidunt condimentum nulla.",
+         "Es un servicio enfocado en la capacitación del deportista para que pueda llevar a cabo una carrera saludable a la vez que va cumpliendo sus objetivos.\n\n El sistema de trabajo consiste en mostrar la realidad en la que tú te encuentras para proporcionarte un plan de trabajo adaptado a tus necesidades para que así puedas lograr tu objetivo. Sensaciones al realizar acciones, comunicación con tu equipo, trascendencia de tus acciones o forma física serán puntos clave para hacer una diagnóstico. \n\n A medida que vayas avanzando hacia tu objetivo, se te proporcionarán tips y estrategias para sobrellevar distintas dificultades, tanto presentes como futuras. Al finalizar el proceso, serás una persona autónoma con capacidad para adaptarse a su vida deportista, con sus objetivos conseguidos y con herramientas para mantenerlo.",
        "sections": [
          {
            "title": "CARRERA",
            "icon": "/icons/service/section/carrera.svg",
            "darkerIcon": "/icons/service/section/carreraDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"¿Tienes objetivos a largo plazo? Es habitual en deportistas tener planes de futuro a 2-3 años vista. Preparar la entrada al sénior, al primer equipo, participar en torneos… Aquí te acompañaremos con un grupo de especialistas en todo el proceso para que ganes habilidades, sepas enfocarte en los distintos escenarios y te resulte fácil llegar hasta donde te propongas."
          },
          {
            "title": "HABILIDAD",
            "icon": "/icons/service/section/habilidad.svg",
            "darkerIcon": "/icons/service/section/habilidadDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"Cada jugador requiere una serie de habilidades concretas para llevar a cabo sus objetivos pero pocas veces se dispone del tiempo suficiente en el entrenamiento para poder  enfocarse específicamente en su desarrollo. Aquí te ofrecemos las herramientas para poder adquirir y normalizar estas habilidades para así mejorar como jugador."
          },
          {
            "title": "MENTALIDAD",
            "icon": "/icons/service/section/mentalidad.svg",
            "darkerIcon": "/icons/service/section/mentalidadDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"A todos siempre nos ha gustado ser aquel jugador con mentalidad ganadora, que tenga lo que tenga enfrente lo encara fuerte. Siempre convencido de que lo va a  lograr. Aquí transformaremos tu mentalidad para que seas esa persona que en las competiciones siempre has querido ser."
          },
          {
-          "title": "EQUIPO",
+          "title": "TRABAJO EN EQUIPO",
           "icon": "/icons/service/section/equipo.svg",
           "darkerIcon": "/icons/service/section/equipoDarker.svg",
-          "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "description":"¿Eres entrenador y tienes un equipo que no acaba de responder del todo a tus propuestas o métodos? Localizar y ver los puntos claves es la solución para ganar eficiencia en la dirección de un equipo. Nosotros te ayudaremos a que puedas encontrar las mejores técnicas para   reconducir a tu equipo y así os podáis alinear en forma y métodos."
         }
        ],
        "successfulCases": {
          "title": "CASOS DE ÉXITO",
-         "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
+         "description": "A lo largo de los años, con los servicios de AX Sport, hemos podido ayudar a mucha gente a lograr sus objetivos. Algunos casos han sido destacables por el trabajo que se ha llevado a cabo y los resultados que ha obtenido el cliente a partir de este.",
          "femaleIcon": "/icons/service/cases/female-sport.svg",
          "maleIcon": "/icons/service/cases/male-sport.svg",
          "cases": [
            {
-             "icon": "/icons/contact/location.svg",
-             "name": "NURIA JOE",
+             "icon": "/icons/service/section/carrera.svg",
+             "name": "NURIA JOU",
              "profession": "Jugadora de Rugby",
              "genre": "female",
-             "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-             "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+             "description": "Buscaba jugar en alto rendimiento y ahora está como jugadora en DHB y debutante en la selección española.",
+             "quote": "“Alex me ayudó mucho a enderezar mi carrera deportiva y centrarme en lo realmente importante para lograr mis objetivos.”"
            },
            {
-            "icon": "/icons/contact/location.svg",
-            "name": "ANÓNIMO",
-            "profession": "Dra. en oncología",
+             "icon": "",
+             "name": "+32 CLIENTES",
+             "profession": "Jugando en ligas profesionales",
+             "genre": "",
+             "description": "",
+             "quote": ""
+           },
+           {
+            "icon": "/icons/service/section/habilidad.svg",
+            "name": "ELSA PINO",
+            "profession": "Jugadora de Rugby",
             "genre": "female",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
-          },
-          {
-            "icon": "/icons/contact/location.svg",
-            "name": "ANÓNIMO",
-            "profession": "Ciberseguridad",
-            "genre": "female",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+            "description": "Quería pasar de estar en el equipo de la liga regional a debutar en DH. Después de 5 meses de trabajo lo logró.",
+            "quote": "“Alex me dio las herramientas para desarrollar todas las habilidades que necesitaba para lograr los objetivos marcados.”"
           }
          ]
        },
@@ -433,19 +423,14 @@
         "title": "EQUIPO",
         "members": [
           {
-            "name": "LAURA NIUBÓ",
-            "profession": "UX/UI Designer",
-            "image": "/icons/lau.png"
-          },
-          {
-            "name": "VICTORIA PLAZA",
-            "profession": "Full stack Developer",
-            "image": "/icons/vic.png"
+            "name": "LUCIANO ANDRÉS COLANTUONO",
+            "profession": "Fisioterapeuta",
+            "image": "/icons/team/chicoSport2.png"
           },
           {
             "name": "ALEX CASAJUANA",
-            "profession": "Full equip",
-            "image": "/icons/testProfile.png"
+            "profession": "Asesor",
+            "image": "/icons/team/alexSport.png"
           }
         ]
       },
@@ -475,52 +460,44 @@
        "image": "/icons/ART.svg",
        "downArrow": "/icons/arrows/downArrowArt.svg",
        "leftArrow": "/icons/arrows/leftArrowBrown.svg",
-       "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus.",
+       "shortDescription": "¿Necesitas crear una colección o  deseas lanzar una que ya tienes, representación, management? Si eres artista y deseas poder dinamizar y poder ganar mayor impacto en toda tu obra, nosotros te guiaremos y te daremos todas las herramientas necesarias para lograr tus objetivos.",
        "description":
-         "Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, vehicula vestibulum diam faucibus et feugiat ridiculus interdum erat, pulvinar montes quam natoque cum semper vulputate. In imperdiet nibh interdum velit potenti tincidunt elementum sed, integer suspendisse vulputate metus enim quis netus, pulvinar laoreet convallis mattis volutpat egestas fermentum. Parturient neque molestie lacinia convallis egestas accumsan primis, pulvinar quis massa vivamus non cubilia conubia torquent, urna placerat litora eros venenatis tellus.\n\nBibendum potenti porttitor nisl facilisis condimentum mi turpis fermentum viverra maecenas massa ultricies eu, hac porta proin taciti nascetur dis volutpat donec ridiculus purus torquent phasellus. Fusce sed odio suscipit penatibus ante eleifend curae in vitae pulvinar, ad posuere per nullam lobortis praesent potenti pellentesque sapien, enim mus himenaeos primis libero litora justo nisl maecenas. Neque eget placerat nibh gravida malesuada venenatis sagittis enim curabitur metus class, semper ultricies magnis felis lectus velit ac tempus libero nullam proin tristique, facilisi habitant ridiculus phasellus blandit senectus maecenas tincidunt condimentum nulla.",
+         "Es un servicio enfocado en la capacitación del artista para que pueda llevar a cabo su carrera cumpliendo los objetivos que tenga marcados. \n\n El sistema de trabajo consiste en mostrar la realidad en la que tú te encuentras. La trascendencia de tus acciones, el proceso de creación de tu obra, tu espacio creativo… serán puntos clave para hacer un diagnóstico. Para tu correcto desarrollo, se ofrecen formaciones sobre marketing, ventas, gestión de redes sociales o imagen pública. \n\n Mediante todas las herramientas que irás recibiendo, te volverás una persona autónoma con capacidad para adaptarse a tu vida artística. Al finalizar el proceso, serás una persona con tu objetivo artístico encaminado (o conseguido) que tiene herramientas para mantenerlo.",
        "sections": [
          {
            "title": "PINTURA",
            "icon": "/icons/service/section/pintura.svg",
            "darkerIcon": "/icons/service/section/pinturaDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"¿No sabes cómo puedes promocionar tu obra? ¿Quieres vivir de tu arte? Empezar de la nada no es tarea fácil. Es necesario desarrollar un tipo de ideas específicas que te permitan ser reconocido y que permitan trascender tu obra para darle más o menos notoriedad. Aquí te permitiremos trascender de persona a artista para que puedas vivir de tu arte."
          },
          {
            "title": "MÚSICA",
            "icon": "/icons/service/section/musica.svg",
            "darkerIcon": "/icons/service/section/musicaDarker.svg",
-           "description":"Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+           "description":"¿Llevas años tocando un instrumento? ¿Eres músico de conservatorio? ¿Quieres sacar tu grupo o tu producto? ¿te planteas lanzar tu primer CD de forma profesional?. Aquí te guiaremos, te acompañaremos y te daremos las herramientas para que puedas lograr materializar toda tu pasión."
          }
        ],
        "successfulCases": {
         "title": "CASOS DE ÉXITO",
-        "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
+        "description": "A lo largo de los años, con los servicios de AX Art, hemos podido ayudar a mucha gente a lograr sus objetivos. Algunos casos han sido destacables por el trabajo que se ha llevado a cabo y los resultados que ha obtenido el cliente a partir de este. Algunos clientes se han mantenido en el anonimato para respetar su confidencialidad.",
         "femaleIcon": "/icons/service/cases/female-art.svg",
         "maleIcon": "/icons/service/cases/male-art.svg",
         "cases": [
           {
-            "icon": "/icons/contact/location.svg",
-            "name": "NURIA JOE",
-            "profession": "Jugadora de Rugby",
+            "icon": "/icons/service/section/pintura.svg",
+            "name": "MONTSERRAT ANGUIANO",
+            "profession": "Pintora",
             "genre": "female",
-            "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-            "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+            "description": "Buscaba promocionar su obra para poder ganar notoriedad. Ahora ha conseguido un flujo de venta de obra que le permite vivir de su arte.",
+            "quote": "“Gracias a Alex he podido aprender a estar segura y a sentirme fuerte en mi proceso como artista.”"
           },
           {
            "icon": "/icons/contact/location.svg",
            "name": "ANÓNIMO",
-           "profession": "Dra. en oncología",
-           "genre": "female",
-           "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n \nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-           "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
-         },
-         {
-           "icon": "/icons/contact/location.svg",
-           "name": "ANÓNIMO",
-           "profession": "Ciberseguridad",
-           "genre": "female",
-           "description": "Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veriam. \n\nLorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adispiscing.",
-           "quote": "“Lorem ipsum dolor sit amet consectetur adispiscing elit sed do eiusmod tempor incididunt.”"
+           "profession": "Músico",
+           "genre": "male",
+           "description": "Pudimos conseguir desarrollar desde cero una campaña de crowdfunding para sacar a la luz su primer CD.",
+           "quote": "“Tuve todo el soporte posible para poder completar mi crowdfunding de forma exitosa.”"
          }
         ]
       },
@@ -528,19 +505,14 @@
         "title": "EQUIPO",
         "members": [
           {
-            "name": "LAURA NIUBÓ",
-            "profession": "UX/UI Designer",
-            "image": "/icons/lau.png"
-          },
-          {
-            "name": "VICTORIA PLAZA",
-            "profession": "Full stack Developer",
-            "image": "/icons/vic.png"
+            "name": "ROGER MIR",
+            "profession": "Profesor y Productor Musical",
+            "image": "/icons/team/chicoArt3.png"
           },
           {
             "name": "ALEX CASAJUANA",
-            "profession": "Full equip",
-            "image": "/icons/testProfile.png"
+            "profession": "Asesor",
+            "image": "/icons/team/alexArt.png"
           }
         ]
       },

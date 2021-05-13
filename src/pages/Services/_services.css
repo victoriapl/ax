@@ -50,13 +50,13 @@
    }
 
    .services-button-text {
-      font-size: 24px;
+      font-size: 20px;
    }
 }
 
 @media (min-width: 1000px) {
    .services {
-      font-size: 23px;
+      font-size: 15px;
    }
 
    .services-wrapper {
@@ -68,6 +68,6 @@
    }
 
    .services-button-text {
-      font-size: 24px;
+      font-size: 20px;
    }
 }

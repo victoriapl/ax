@@ -21,6 +21,14 @@ export const SERVICE_NAV = [
   { title: "Equipo", url: "service-team" },
 ];
 
+export const NAV_SERVICES = [
+  { title: "AX | CONSULTING", url: "/consulting" },
+  { title: "AX | NUTRITION", url: "/nutricion" },
+  { title: "AX | DEVELOPEMENT", url: "/developement" },
+  { title: "AX | SPORT", url: "/sport" },
+  { title: "AX | ART", url: "/art" },
+];
+
 export const CUSTOM_TITLE = ({ text, style, imgWidth }) => (
   <span style={{ display: "flex", alignItems: "center" }}>
     <img
@@ -39,3 +47,4 @@ export const FOOTER_LOGO = "icons/logoBlancoGrueso.svg";
 export const CONSULTING_LOGO = "/icons/logoConsultingLogo.svg";
 export const HAMBURGER_MENU_ICON = "/icons/menu.png";
 export const AX_LETTERS = "/icons/axBlanco.svg";
+export const WHITE_ARROW = "/icons/arrows/downWhiteArrow.png";

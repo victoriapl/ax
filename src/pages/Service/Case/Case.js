@@ -11,7 +11,7 @@ export default function Case({
   const { icon, name, profession, description, quote, genre } = data;
   return (
     <div className='case-wrapper'>
-      <img src={icon} alt={"case-icon"} />
+      <img src={icon} width={50} alt={"case-icon"} />
       <h2 style={{ color: primaryColor }} className='case-name'>
         {name}
       </h2>

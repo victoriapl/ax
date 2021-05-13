@@ -14,10 +14,8 @@ export default function Member({
   const [color, setColor] = useState(secondaryColor);
 
   useEffect(() => {
-    if (history.location.pathname === "/art") {
-      setBorderColor(secondaryColor);
-      setColor(primaryColor);
-    }
+    setBorderColor(secondaryColor);
+    setColor(primaryColor);
   }, [primaryColor, secondaryColor, history.location]);
 
   return (
