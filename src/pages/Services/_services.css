@@ -1,26 +1,28 @@
 .services {
-   margin-bottom: 15vh;
+   font-size: 13px;
+   padding: 0 15%;
 }
 
 .services-image {
    border-bottom: 3px solid;
-   width: 60%;
+   width: 35%;
 }
 
 .services-wrapper {
    display: flex;
    flex-flow: column;
    justify-content: center;
-   margin: 40px;
+   margin-bottom: 20px;
 }
 
 .services-item {
-   padding: 30px;
+   margin: 20px 15px;
    width: auto;
 }
 
 .services-item-text {
    text-align: justify;
+   min-height: auto;
 }
 
 .services-button {
@@ -34,12 +36,6 @@
    margin: 0;
 }
 
-@media (max-width: 350px) {
-   .services-item {
-      padding: 20px 15px; 
-   }
-} 
-
 @media (min-width: 660px) and (max-width: 1000px) {
    .services-item {
       width: 37%;
@@ -47,6 +43,10 @@
 
    .services-wrapper {
       flex-flow: wrap;
+   }
+
+   .services-item-text {
+      min-height: 170px;
    }
 
    .services-button-text {
@@ -57,6 +57,7 @@
 @media (min-width: 1000px) {
    .services {
       font-size: 15px;
+      padding: 0 15%;
    }
 
    .services-wrapper {
@@ -64,10 +65,25 @@
    }
 
    .services-item {
-      width: 25%;
+      margin: 0 20px 20px;
+      width: 28%;
+   }
+
+   .services-item-text {
+      min-height: 165px;
    }
 
    .services-button-text {
       font-size: 20px;
+   }
+}
+
+@media (min-width: 1400px) {
+   .services {
+      padding: 0 20%;
+   }
+
+   .services-item-text {
+      min-height: 125px;
    }
 }

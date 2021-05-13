@@ -12,13 +12,16 @@
 }
 
 .home-service {
+   align-items: center;
    color: white;
+   display: flex;
+   height: 40px;
    margin: 5px 0;
 }
 
 .home-service-text {
    font-family: 'KumbhSans-Light';
-   font-size: 19px;
+   font-size: 25px;
    margin: 10px;
    padding: 0 20px;
    text-align: initial;
@@ -33,24 +36,20 @@
 @media (min-width: 700px) {
    #home {
       align-items: center;
-      background-image: url('../../assets/logoBackground.svg');
-      background-position: center;
-      background-position-x: 60%;
-      background-position-y: 25%;
-      background-repeat: no-repeat;
-      background-size: 1450px;
       display: flex;
       padding: 0 25%;
    }
 
    .home-service {
+      align-items: center;
       display: flex;
-      max-width: 650px;
-      min-width: 500px;
+      height: 55px;
+      margin: 10px 0;
+      width: 498px;
       padding-left: 10%;
    }
 
    .home-service-text {
-      font-size: 28px;
+      font-size: 30px;
    }
 }

@@ -73,11 +73,11 @@
    }
 
    .header-title {
-      margin-left: 40px;
+      margin-left: 6%;
    }
    
    .header-title-text {
-      font-size: 28px;
+      font-size: 30px;
       font-weight: normal;
    }
 
@@ -93,7 +93,7 @@
       padding: 0px 60px;
       position: absolute;
       text-align: initial;
-      top: 8vh;
+      top: 8.5vh;
       width: 100vw;
    }
 
@@ -110,7 +110,7 @@
    .header-links {
       display: flex;
       font-size: 16px;
-      margin-right: 40px;
+      margin-right: 6%;
    }
    
    .header-link-item {
@@ -128,7 +128,7 @@
 @media (min-width: 1500px) {
    .header-links {
       display: flex;
-      font-size: 23px;
+      font-size: 25px;
       padding-right: 20px;
    }
 }
