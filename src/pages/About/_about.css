@@ -1,3 +1,8 @@
+.about-view {
+   font-size: 13px;
+   padding: 0 13%;
+}
+
 .about-images1, .about-images2 {
    background-repeat: no-repeat;
    background-position: center;
@@ -16,17 +21,13 @@
    height: 80px;
 }
 
-.about-content {
-   margin: 0 40px;
-}
-
 .about-section {
    text-align: justify;
    white-space: pre-line;
 }
 
 .about-profile {
-   margin: 60px;
+   margin: 20px;
 }
 
 .about-profile-img-wrapper {
@@ -39,13 +40,13 @@
    background-size: cover;
    border: 3px solid;
    border-radius: 50%;
-   height: 150px;
+   height: 115px;
    margin: auto;
-   width: 150px;
+   width: 115px;
 }
 
 .about-profile-name {
-   font-size: 26px;
+   font-size: 20px;
    font-weight: lighter;
    margin-bottom: 0;
 }
@@ -62,8 +63,7 @@
 }
 
 .about-philosophy {
-   margin: 40px;
-   margin-bottom: 15vh;
+   margin: 30px 0;
 }
 
 .about-philosophy-title {
@@ -80,11 +80,11 @@
 @media (min-width: 700px) {
    .about-view {
       font-size: 15px;
+      padding: 0 15%;
    }
 
    .about {
       display: flex;
-      margin: 0 60px;
    }
 
    .about-images1, .about-images2 {
@@ -94,36 +94,32 @@
 
    .about-images1 {
       background-image: url('../../assets/about1std.svg');
-      height: 80px;
+      height: 70px;
    }
    
    .about-images2 {
       background-image: url('../../assets/about2std.svg');
       background-size: contain;
-      height: 55px;
+      height: 50px;
    }
 
    .about-profile {
-      margin: 40px 40px 0 0;
+      margin: 0 0 0 60px;
    }
 
    .about-profile-img-src {
-      height: 180px;
-      width: 180px;
-   }
-
-   .about-philosophy {
-      margin: 40px 100px 120px;
+      height: 140px;
+      width: 140px;
    }
 
    .about-philosophy-title {
       margin: auto;
-      width: 30%;
+      width: 280px;
    }
 }
 
 @media (min-width: 1200px) {
    .about-images2 {
-      height: 70px;
+      height: 60px;
    }
 }
