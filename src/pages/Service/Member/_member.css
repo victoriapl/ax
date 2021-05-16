@@ -18,7 +18,7 @@
    font-size: 20px;
    font-weight: 300;
    margin: 0 13%;
-   padding-top: 15px;
+   padding: 15px 30px 0;
 }
 
 .member-profession {
@@ -37,7 +37,7 @@
    }
 
    .member-image-wrapper {
-      margin: 10px 0;
+      margin: 10px auto;
       max-width: 150px;
    }
 }

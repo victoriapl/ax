@@ -1,18 +1,12 @@
 import React from "react";
 import "./_case.css";
 
-export default function Case({
-  data,
-  primaryColor,
-  secondaryColor,
-  femaleIcon,
-  maleIcon,
-}) {
+export default function Case({ data, primaryColor, secondaryColor }) {
   const { icon, name, profession, description, quote } = data;
   return (
     <div className='case-wrapper'>
       <div className='case-wrapper-header'>
-        <img src={icon} width={70} alt={"case-icon"} />
+        {icon && <img src={icon} width={70} alt={"case-icon"} />}
         <div>
           <h2 style={{ color: primaryColor }} className='case-name'>
             {name}

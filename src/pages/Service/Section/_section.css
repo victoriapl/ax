@@ -26,13 +26,13 @@
 @media (min-width: 700px) {
    .section {
       height: 65px;
+      padding: 0 100px;
    }
 
    .section-title {
       align-items: center;
       display: flex;
       font-size: 30px;
-      margin-left: 15%;
    }
 
    .section-img {
@@ -42,5 +42,11 @@
    .section-description {
       flex-direction: row;
       margin: 35px 100px;
+   }
+}
+
+@media (max-width: 800px) {
+   .section {
+      padding: 0 70px;
    }
 }

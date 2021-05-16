@@ -58,6 +58,7 @@
        "title": "CONSULTING",
        "url": "consulting",
        "logo": "/icons/consultingLogo.svg",
+       "secondaryLogo": "/icons/secondaryConsultingLogo.svg",
        "primaryColor": "#052973",
        "secondaryColor": "#0083A9",
        "extraColor": "#3DC6ED",
@@ -165,6 +166,7 @@
        "title": "NUTRITION",
        "url": "nutricion",
        "logo": "/icons/nutritionLogo.svg",
+       "secondaryLogo": "/icons/secondaryNutritionLogo.svg",
        "primaryColor": "#0A391D",
        "secondaryColor": "#919B03",
        "extraColor": "#B4C321",
@@ -256,6 +258,7 @@
        "title": "DEVELOPMENT",
        "url": "development",
        "logo": "/icons/developementLogo.svg",
+       "secondaryLogo": "/icons/secondaryDevelopmentLogo.svg",
        "primaryColor": "#A90556",
        "secondaryColor": "#D8529E",
        "extraColor": "#FEB9E0",
@@ -289,14 +292,14 @@
           {
             "icon": "/icons/service/section/camino.svg",
             "name": "EVA CUADROS",
-            "profession": "Profesora de yoga",
+            "profession": "Prof. de yoga",
             "genre": "female",
             "description": "Necesitaba un cambio en toda su vida. Después de 6 meses de trabajo pudo hacer un giro de 180º.",
             "quote": "“Alex me dio las herramientas para que yo misma dirija mi vida tal y como quiero.”"
           },
           {
            "icon": "/icons/service/section/aprendizaje.svg",
-           "name": "LARA DE LA CRUZ",
+           "name": "LARA de la CRUZ",
            "profession": "Interiorista",
            "genre": "female",
            "description": "Buscaba crear una metodología de autotrabajo. Ahora, con todas las herramientas que le proporcionamos, lleva más de un año autotrabajandose y progresando en su vida.",
@@ -351,6 +354,7 @@
        "title": "SPORT",
        "url": "sport",
        "logo": "/icons/sportLogo.svg",
+       "secondaryLogo": "/icons/secondarySportLogo.svg",
        "primaryColor": "#C53F00",
        "secondaryColor": " #D79E00",
        "extraColor": "#FFC91B",
@@ -423,7 +427,7 @@
         "title": "EQUIPO",
         "members": [
           {
-            "name": "LUCIANO ANDRÉS COLANTUONO",
+            "name": "LUCIANO ANDRÉS",
             "profession": "Fisioterapeuta",
             "image": "/icons/team/chicoSport2.png"
           },
@@ -452,10 +456,11 @@
      {
        "title": "ART",
        "url": "art",
-       "logo": "/icons/artLogo.svg",
+       "logo": "/icons/artLogoDarker.svg",
+       "secondaryLogo": "/icons/artLogo.svg",
        "primaryColor": "#FFAB1B",
        "secondaryColor": "#732E01",
-       "extraColor": "#E59203",
+       "extraColor": "#732E01",
        "descriptionTitle": "SERVICIOS",
        "image": "/icons/ART.svg",
        "downArrow": "/icons/arrows/downArrowArt.svg",
@@ -484,7 +489,7 @@
         "maleIcon": "/icons/service/cases/male-art.svg",
         "cases": [
           {
-            "icon": "/icons/service/section/pintura.svg",
+            "icon": "/icons/service/section/pinturaDarker.svg",
             "name": "MONTSERRAT ANGUIANO",
             "profession": "Pintora",
             "genre": "female",
@@ -492,7 +497,7 @@
             "quote": "“Gracias a Alex he podido aprender a estar segura y a sentirme fuerte en mi proceso como artista.”"
           },
           {
-           "icon": "/icons/contact/location.svg",
+           "icon": "/icons/service/section/musicaDarker.svg",
            "name": "ANÓNIMO",
            "profession": "Músico",
            "genre": "male",

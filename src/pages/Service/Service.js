@@ -49,88 +49,79 @@ export default function Service() {
         text={data.title}
         primaryColor={data.primaryColor}
         extraColor={data.extraColor}
+        logo={data.secondaryLogo}
       />
       <div className='service-content'>
         <Description
-          primaryColor={
-            data.title === "ART"
-              ? data.secondaryColor
-              : data.primaryColor
-          }
+          primaryColor={data.primaryColor}
           description={data.description}
           title={data.descriptionTitle}
           logo={data.logo}
         />
-        {/* SECTIONS */}
-        <div className='service-sections'>
-          {data.sections?.map((section, i) => (
-            <React.Fragment key={i}>
-              <Section
-                section={section}
-                primaryColor={data.primaryColor}
-                secondaryColor={data.secondaryColor}
-                extraColor={data.extraColor}
-                leftArrow={data.leftArrow}
-                downArrow={data.downArrow}
-              />
-            </React.Fragment>
-          ))}
-        </div>
+      </div>
+      {/* SECTIONS */}
+      <div className='service-sections'>
+        {data.sections?.map((section, i) => (
+          <React.Fragment key={i}>
+            <Section
+              section={section}
+              primaryColor={data.primaryColor}
+              secondaryColor={data.secondaryColor}
+              extraColor={data.extraColor}
+              leftArrow={data.leftArrow}
+              downArrow={data.downArrow}
+            />
+          </React.Fragment>
+        ))}
+      </div>
 
-        {/* SUCCESSFUL CASES */}
-        <div id='service-success'>
-          <Description
-            primaryColor={
-              data.title === "ART"
-                ? data.secondaryColor
-                : data.primaryColor
-            }
-            description={data.successfulCases?.description}
-            title={data.successfulCases?.title}
-            logo={data.logo}
-          />
-          <div className='service-cases'>
-            {data.successfulCases?.cases?.map(
-              (
-                { icon, name, profession, description, quote, genre },
-                index
-              ) => (
-                <React.Fragment key={index}>
-                  <Case
-                    data={{
-                      icon,
-                      name,
-                      profession,
-                      description,
-                      quote,
-                      genre,
-                    }}
-                    primaryColor={data.primaryColor}
-                    secondaryColor={data.secondaryColor}
-                    femaleIcon={data.successfulCases.femaleIcon}
-                    maleIcon={data.successfulCases.maleIcon}
-                  />
-                </React.Fragment>
-              )
-            )}
-          </div>
+      {/* SUCCESSFUL CASES */}
+      <div id='service-success' className='service-content'>
+        <Description
+          primaryColor={data.primaryColor}
+          description={data.successfulCases?.description}
+          title={data.successfulCases?.title}
+          logo={data.logo}
+        />
+        <div className='service-cases'>
+          {data.successfulCases?.cases?.map(
+            (
+              { icon, name, profession, description, quote, genre },
+              index
+            ) => (
+              <React.Fragment key={index}>
+                <Case
+                  data={{
+                    icon,
+                    name,
+                    profession,
+                    description,
+                    quote,
+                    genre,
+                  }}
+                  primaryColor={data.primaryColor}
+                  secondaryColor={data.secondaryColor}
+                  femaleIcon={data.successfulCases.femaleIcon}
+                  maleIcon={data.successfulCases.maleIcon}
+                />
+              </React.Fragment>
+            )
+          )}
         </div>
       </div>
       {/* CONTACT */}
       <Contact
-        primaryColor={data.extraColor}
+        primaryColor={
+          data.title === "ART" ? data.secondaryColor : data.extraColor
+        }
         secondaryColor={data.primaryColor}
         serviceContact={data.contactIcons}
         serviceClass={data.title}
       />
       {/* TEAM */}
-      <div>
+      <div className='service-team'>
         <Description
-          primaryColor={
-            data.title === "ART"
-              ? data.secondaryColor
-              : data.primaryColor
-          }
+          primaryColor={data.primaryColor}
           title={data.team?.title}
           logo={data.logo}
         />

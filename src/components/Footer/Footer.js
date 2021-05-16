@@ -11,7 +11,7 @@ export default function Footer() {
         src={FOOTER_LOGO}
         alt={"logo"}
         onClick={() => history.push("/")}
-        width={80}
+        width={85}
       />
     </div>
   );

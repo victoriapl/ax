@@ -1,15 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useHistory } from "react-router";
 import "./_section.css";
 
 export default function Section({
   section,
   primaryColor,
-  secondaryColor,
   extraColor,
   leftArrow,
   downArrow,
 }) {
   const [open, setOpen] = useState(false);
+  const history = useHistory();
+
+  useEffect(() => {
+    setOpen(false);
+  }, [history.location]);
+
   return (
     <>
       <div

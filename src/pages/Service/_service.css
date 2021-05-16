@@ -2,6 +2,18 @@
    margin: 8vh 0 15vh 0;
 }
 
+.service-content {
+   padding: 0 10%;
+}
+
+.service-sections {
+   padding: 0;
+}
+
+.service-team {
+   padding: 0 10%;
+}
+
 .service .description-title-text {
    width: 100%;
 }
@@ -15,7 +27,7 @@
 }
 
 .service .contact {
-   height: 40vh;
+   height: 42vh;
    padding: 4vh 12vw;
 }
 
@@ -28,17 +40,40 @@
       padding: 0 19%;
    }
 
+   .service-sections {
+      padding: 0 19%;
+   }
+
+   .service-team {
+      padding: 0;
+   }
+
    .service-cases {
       display: flex;
       flex-direction: row;
+      justify-content: space-around;
    }
 
    .service .description-title-text {
       width: auto;
    }
 
+   .service .description-title-text img {
+      width: 80px;
+   }
+
    .service-members {
       display: flex;
       justify-content: center;
+   }
+}
+
+@media (min-width: 780px) and (max-width: 1230px) {
+   .service-content {
+      padding: 0 15%;
+   }
+
+   .service-sections {
+      padding: 0 15%;
    }
 }

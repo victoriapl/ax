@@ -90,7 +90,7 @@
    .header-main-menu-items {
       display: flex;
       flex-direction: row;
-      padding: 0px 60px;
+      padding-left: 7%;
       position: absolute;
       text-align: initial;
       top: 8.5vh;
@@ -99,7 +99,7 @@
 
    .header-main-menu-item {
       color: white;
-      font-size: 25px;
+      font-size: 20px;
       padding: 15px 20px 15px 0px;
       text-decoration: none;
    }
@@ -131,5 +131,9 @@
       display: flex;
       font-size: 25px;
       padding-right: 20px;
+   }
+
+   .header-main-menu-item {
+      font-size: 25px;
    }
 }

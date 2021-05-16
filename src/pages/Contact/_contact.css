@@ -16,11 +16,11 @@
    background-image: url('../../assets/contactNameMob.svg');
 }
 
-.contact-logo-img-NUTRICIÓN {
+.contact-logo-img-NUTRITION {
    background-image: url('../../assets/contactNameMobNutrition.svg');
 }
 
-.contact-logo-img-DEVELOPEMENT {
+.contact-logo-img-DEVELOPMENT {
    background-image: url('../../assets/contactNameMobDevelopement.svg');
 }
 
@@ -53,7 +53,7 @@
 
 .contact-data-info-icon {
    margin-right: 8px;
-   width: 10%;
+   width: 33px;
 }
 
 @media (min-width: 650px) {
@@ -65,13 +65,14 @@
    .contact-logo {
       background-position: center;
       height: 45%;
+      width: 95%;
    }
 
    .contact-logo-img {
       background-image: url('../../assets/contactNameDkt.svg');
    }
 
-   .contact-logo-img-NUTRICIÓN {
+   .contact-logo-img-NUTRITION {
       background-image: url('../../assets/contactNameDktNutrition.svg');
    }
 
@@ -79,7 +80,7 @@
       background-image: url('../../assets/contactNameDktConsulting.svg');
    }
 
-   .contact-logo-img-DEVELOPEMENT {
+   .contact-logo-img-DEVELOPMENT {
       background-image: url('../../assets/contactNameDktDevelopement.svg');
    }
 
@@ -99,5 +100,9 @@
 
    .contact-data-info {
       font-size: 23px;
+   }
+
+   .contact-data-info-icon {
+      width: 50px;
    }
 }
