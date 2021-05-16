@@ -2,7 +2,7 @@
   margin: 30px 40px;
 }
 
-.mamber-image-wrapper {
+.member-image-wrapper {
    margin: 9% 20%;
 }
 
@@ -29,6 +29,15 @@
 
 @media (min-width: 700px) {
    .member {
-      margin: 30px 40px;
-    }
+      margin: 20px 30px;
+   }
+
+   .member-name {
+      margin: 0 0 5px;
+   }
+
+   .member-image-wrapper {
+      margin: 10px 0;
+      max-width: 150px;
+   }
 }

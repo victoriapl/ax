@@ -2,7 +2,7 @@ import React from "react";
 import { AX_LETTERS, FOOTER_LOGO } from "../../constants";
 import "./_banner.css";
 
-export default function Banner({ text, primaryColor, secondaryColor }) {
+export default function Banner({ text, primaryColor, extraColor }) {
   return (
     <div className='banner' style={{ backgroundColor: primaryColor }}>
       <img src={FOOTER_LOGO} className='banner-logo' alt='logo' />
@@ -12,7 +12,7 @@ export default function Banner({ text, primaryColor, secondaryColor }) {
           className='banner-title-icon'
           alt={"AX"}
         />{" "}
-        <span style={{ color: secondaryColor }}>{text}</span>
+        <span style={{ color: extraColor }}>{text}</span>
       </span>
     </div>
   );

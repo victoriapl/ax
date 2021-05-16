@@ -59,13 +59,13 @@
        "url": "consulting",
        "logo": "/icons/consultingLogo.svg",
        "primaryColor": "#052973",
-       "secondaryColor": "#00A0CB",
-       "borderColor": "#00A0CB",
+       "secondaryColor": "#0083A9",
+       "extraColor": "#3DC6ED",
        "descriptionTitle": "SERVICIOS",
        "image": "/icons/CONSULTING.svg",
        "downArrow": "/icons/arrows/downArrowConsulting.svg",
        "leftArrow": "/icons/arrows/leftArrowConsulting.svg",
-       "shortDescription": "¿Qué es lo que necesita tu proyecto? Te ayudaremos a aumentar su valor, a darle un cuerpo y una imagen, te guiaremos para que sea exitoso en el momento de su lanzamiento y sacaremos a la luz las habilidades necesarias para cumplir tus objetivos.",
+       "shortDescription": "¿Qué es lo que necesita tu proyecto? Te ayudaremos a aumentar su valor, a darle una imagen, a hacerlo exitoso y sacaremos a la luz las habilidades necesarias para cumplir tus objetivos.",
        "description":
          "Es un servicio enfocado en capacitar a las personas para el logro de objetivos. Se centra en las herramientas que necesita el cliente para llevar a cabo su objetivo. \n\n El sistema de trabajo consiste en observar tus habilidades. Una vez están claras todas tus capacidades, se te proporcionará un guión de trabajo para complementar tus carencias o reforzar tus puntos fuertes para que puedas lograr el objetivo de la forma más cómoda posible. \n\n A medida que vayas avanzando hacia tu objetivo, se trabajarán los escenarios previstos junto a las habilidades requeridas para avanzar hacia el objetivo de forma adecuada. Al finalizar el proceso, llegarás a ser una persona autónoma con capacidad de adaptación mientras logras tus objetivos y, una vez los consigas, dispondrás de las herramientas para mantenerlos.",
        "sections": [
@@ -111,7 +111,7 @@
           {
            "icon": "icons/service/section/imgCorpIcon.svg",
            "name": "ANÓNIMO",
-           "profession": "Jefa de sección",
+           "profession": "Jefa sección",
            "genre": "female",
            "description": "Requería un acompañamiento y una formación en comunicación para poder afrontar unas oposiciones con un rival directo.",
            "quote": "“Necesitaba completar un proceso largo y costoso y Alex me dio las herramientas y toda la información necesaria para lograr mi oposición con éxito.”"
@@ -162,17 +162,17 @@
       ]
      },
      {
-       "title": "NUTRICIÓN",
+       "title": "NUTRITION",
        "url": "nutricion",
        "logo": "/icons/nutritionLogo.svg",
-       "primaryColor": "#0A361D",
-       "secondaryColor": "#B1BB20",
-       "borderColor": "#B1BB20",
+       "primaryColor": "#0A391D",
+       "secondaryColor": "#919B03",
+       "extraColor": "#B4C321",
        "descriptionTitle": "SERVICIOS",
        "image": "/icons/NUTRITION.svg",
        "downArrow": "/icons/arrows/downArrowNutrition.svg",
        "leftArrow": "/icons/arrows/leftArrowNutrition.svg",
-       "shortDescription": "Ordenar tu alimentación, ajustar las necesidades de tu cuerpo, aprender a cuidarte… Si estos son tus objetivos, aquí te ayudaremos a cumplirlos.",
+       "shortDescription": "Ordenar tu alimentación, ajustar todas las necesidades de tu cuerpo, aprender a cuidarte… Si estos son tus objetivos, aquí te ayudaremos a cumplirlos.",
        "description":
          "Es un servicio que está enfocado en la educación nutricional. Se centra especialmente en dar al paciente herramientas para llevar a cabo una vida saludable sin la dependencia de un especialista. \n\n El sistema de trabajo consiste en mostrarte la realidad en la que tú te encuentras para proporcionarte un plan de trabajo adaptado para que puedas lograr tu objetivo. Estilo de vida, horas de sueño, consumo de alcohol, orden de las comidas o calidad nutricional son puntos a tener en cuenta para el diagnóstico. \n\n A medida que vayas avanzando hacia tu objetivo, se te proporcionarán tips y estrategias para sobrellevar distintas dificultades, tanto presentes como futuras para que, de esta manera, puedas ser independiente. Al finalizar el proceso, serás una persona autónoma con capacidad para adaptarte a tu vida nutricional, con tu objetivo corporal conseguido y con todas las herramientas para mantenerlo.",
        "sections": [
@@ -253,12 +253,12 @@
       ]
      },
      {
-       "title": "DEVELOPEMENT",
-       "url": "developement",
+       "title": "DEVELOPMENT",
+       "url": "development",
        "logo": "/icons/developementLogo.svg",
        "primaryColor": "#A90556",
-       "secondaryColor": "#FEB9E0",
-       "borderColor": "#A90556",
+       "secondaryColor": "#D8529E",
+       "extraColor": "#FEB9E0",
        "descriptionTitle": "SERVICIOS",
        "image": "/icons/DEVELOPMEN.svg",
        "downArrow": "/icons/arrows/downArrowDevelopement.svg",
@@ -352,9 +352,9 @@
        "url": "sport",
        "logo": "/icons/sportLogo.svg",
        "primaryColor": "#C53F00",
-       "secondaryColor": "#FFC91B",
+       "secondaryColor": " #D79E00",
+       "extraColor": "#FFC91B",
        "descriptionTitle": "SERVICIOS",
-       "borderColor": "#C53F00",
        "image": "/icons/SPORT.svg",
        "downArrow": "/icons/arrows/downArrowSport.svg",
        "leftArrow": "/icons/arrows/leftArrowSport.svg",
@@ -455,12 +455,12 @@
        "logo": "/icons/artLogo.svg",
        "primaryColor": "#FFAB1B",
        "secondaryColor": "#732E01",
-       "borderColor": "#FFAB1B",
+       "extraColor": "#E59203",
        "descriptionTitle": "SERVICIOS",
        "image": "/icons/ART.svg",
        "downArrow": "/icons/arrows/downArrowArt.svg",
        "leftArrow": "/icons/arrows/leftArrowBrown.svg",
-       "shortDescription": "¿Necesitas crear una colección o  deseas lanzar una que ya tienes, representación, management? Si eres artista y deseas poder dinamizar y poder ganar mayor impacto en toda tu obra, nosotros te guiaremos y te daremos todas las herramientas necesarias para lograr tus objetivos.",
+       "shortDescription": "¿Necesitas crear una colección o lanzarla, representación, gestión...? Si eres artista y deseas generar impacto con tu obra, te guiaremos y te daremos las herramientas para lograr tus objetivos.",
        "description":
          "Es un servicio enfocado en la capacitación del artista para que pueda llevar a cabo su carrera cumpliendo los objetivos que tenga marcados. \n\n El sistema de trabajo consiste en mostrar la realidad en la que tú te encuentras. La trascendencia de tus acciones, el proceso de creación de tu obra, tu espacio creativo… serán puntos clave para hacer un diagnóstico. Para tu correcto desarrollo, se ofrecen formaciones sobre marketing, ventas, gestión de redes sociales o imagen pública. \n\n Mediante todas las herramientas que irás recibiendo, te volverás una persona autónoma con capacidad para adaptarse a tu vida artística. Al finalizar el proceso, serás una persona con tu objetivo artístico encaminado (o conseguido) que tiene herramientas para mantenerlo.",
        "sections": [

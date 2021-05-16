@@ -23,7 +23,7 @@ export default function Services() {
             <img
               src={service.image}
               className='services-image'
-              style={{ borderColor: service.borderColor }}
+              style={{ borderColor: service.extraColor }}
               alt={service.image}
             />
             <p className='services-item-text'>

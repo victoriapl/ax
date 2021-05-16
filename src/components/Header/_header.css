@@ -99,8 +99,9 @@
 
    .header-main-menu-item {
       color: white;
-      font-size: 19px;
+      font-size: 25px;
       padding: 15px 20px 15px 0px;
+      text-decoration: none;
    }
 
    .header-hamburger {

@@ -26,14 +26,14 @@
 
 @media (min-width: 700px) {
    .banner-logo {
-      width: 350px;
+      width: 500px;
    }
 
    .banner-title {
-      font-size: 40px;
+      font-size: 65px;
    }
 
    .banner-title-icon {
-      width: 70px;
+      width: 115px;
    }
 }

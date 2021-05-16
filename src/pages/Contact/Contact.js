@@ -3,7 +3,7 @@ import { contact } from "../../data.json";
 import "./_contact.css";
 
 export default function Contact({
-  primaryColor,
+  primaryColor = "#50007E",
   secondaryColor = "white",
   serviceContact = undefined,
   serviceClass = "",

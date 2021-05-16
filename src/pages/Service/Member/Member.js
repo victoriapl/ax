@@ -14,13 +14,13 @@ export default function Member({
   const [color, setColor] = useState(secondaryColor);
 
   useEffect(() => {
-    setBorderColor(secondaryColor);
-    setColor(primaryColor);
+    setBorderColor(primaryColor);
+    setColor(secondaryColor);
   }, [primaryColor, secondaryColor, history.location]);
 
   return (
     <div className='member'>
-      <div className='mamber-image-wrapper'>
+      <div className='member-image-wrapper'>
         <img
           src={image}
           style={{ borderColor }}

@@ -48,6 +48,7 @@
 .contact-data-info {
    align-items: center;
    display: flex;
+   font-size: 20px;
 }
 
 .contact-data-info-icon {
@@ -94,5 +95,9 @@
       font-size: 19px;
       margin-left: 36%;
       margin-top: 30px;
+   }
+
+   .contact-data-info {
+      font-size: 23px;
    }
 }

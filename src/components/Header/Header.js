@@ -31,7 +31,7 @@ function useClickOutsideHandler(ref, mainMenu, setMainMenu) {
 export default function Header({
   navLinks,
   title,
-  backgroundColor = "",
+  secondaryColor = "",
   primaryColor = "white",
 }) {
   const history = useHistory();
@@ -45,7 +45,7 @@ export default function Header({
     <header
       id='header'
       style={{
-        backgroundColor: backgroundColor ? backgroundColor : "#50007E",
+        backgroundColor: secondaryColor ? secondaryColor : "#50007E",
       }}>
       <div className='header-title'>
         <h1
@@ -82,14 +82,14 @@ export default function Header({
             key={i}
             onClick={() => {
               setSelected(title);
-              if (!backgroundColor) history.push(url);
+              if (!secondaryColor) history.push(url);
             }}
             style={{
               borderBottom: selected === title ? "2px solid white" : "",
               textDecoration: "none",
             }}
             className='header-link-item'>
-            {backgroundColor ? (
+            {secondaryColor ? (
               <Link to={url} smooth={true}>
                 {title}
               </Link>
@@ -103,7 +103,7 @@ export default function Header({
         <div
           className='header-hamburger-menu'
           style={{
-            color: backgroundColor ? primaryColor : "#50007E",
+            color: secondaryColor ? primaryColor : "#50007E",
           }}>
           {navLinks.map(({ title, url }, i) => (
             <p
@@ -111,14 +111,14 @@ export default function Header({
               onClick={() => {
                 setSelected(title);
                 setHamburgerState(false);
-                if (!backgroundColor) history.push(url);
+                if (!secondaryColor) history.push(url);
               }}
               style={{
                 borderLeft: selected === title ? "2px solid" : "",
                 textDecoration: "none",
               }}
               className='header-hamburger--primary-link'>
-              {backgroundColor ? (
+              {secondaryColor ? (
                 <Link
                   to={url}
                   onClick={() => setHamburgerState(false)}
@@ -136,7 +136,7 @@ export default function Header({
                 <RouterLink
                   to={url}
                   style={{
-                    color: backgroundColor ? primaryColor : "#50007E",
+                    color: secondaryColor ? primaryColor : "#50007E",
                   }}
                   onClick={() => setHamburgerState(false)}>
                   {title}
@@ -149,7 +149,7 @@ export default function Header({
       <div
         className='header-main-menu-items'
         style={{
-          backgroundColor: backgroundColor ? primaryColor : "#50007E",
+          backgroundColor: secondaryColor ? secondaryColor : "#50007E",
         }}
         ref={wrapperRef}>
         {mainMenu &&

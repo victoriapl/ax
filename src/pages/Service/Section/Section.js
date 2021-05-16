@@ -5,6 +5,7 @@ export default function Section({
   section,
   primaryColor,
   secondaryColor,
+  extraColor,
   leftArrow,
   downArrow,
 }) {
@@ -15,13 +16,7 @@ export default function Section({
         onClick={() => setOpen(!open)}
         className='section'
         style={{ backgroundColor: primaryColor }}>
-        <p className='section-title' style={{ color: secondaryColor }}>
-          <img
-            src={section.icon}
-            width={70}
-            alt='section'
-            className='section-img'
-          />
+        <p className='section-title' style={{ color: extraColor }}>
           <span>{section.title}</span>
         </p>
         <img
@@ -35,7 +30,7 @@ export default function Section({
           <img
             src={section.darkerIcon}
             style={{ margin: "auto" }}
-            width={150}
+            width={70}
             alt='section'
           />
           <span>{section.description}</span>

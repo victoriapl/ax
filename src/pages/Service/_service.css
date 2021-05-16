@@ -3,7 +3,6 @@
 }
 
 .service .description-title-text {
-   font-size: 30px;
    width: 100%;
 }
 
@@ -20,11 +19,18 @@
    padding: 4vh 12vw;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 780px) {
+   .service {
+      font-size: 15px;
+   }
+
+   .service-content {
+      padding: 0 19%;
+   }
+
    .service-cases {
       display: flex;
       flex-direction: row;
-      margin: 20px 80px;
    }
 
    .service .description-title-text {

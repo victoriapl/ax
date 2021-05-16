@@ -9,7 +9,7 @@ export const SERVICES = [
   "/consulting",
   "/nutrition",
   "/art",
-  "/developement",
+  "/development",
   "/sport",
 ];
 
@@ -24,7 +24,7 @@ export const SERVICE_NAV = [
 export const NAV_SERVICES = [
   { title: "AX | CONSULTING", url: "/consulting" },
   { title: "AX | NUTRITION", url: "/nutricion" },
-  { title: "AX | DEVELOPEMENT", url: "/developement" },
+  { title: "AX | DEVELOPMENT", url: "/development" },
   { title: "AX | SPORT", url: "/sport" },
   { title: "AX | ART", url: "/art" },
 ];

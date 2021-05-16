@@ -8,16 +8,23 @@ export default function Case({
   femaleIcon,
   maleIcon,
 }) {
-  const { icon, name, profession, description, quote, genre } = data;
+  const { icon, name, profession, description, quote } = data;
   return (
     <div className='case-wrapper'>
-      <img src={icon} width={50} alt={"case-icon"} />
-      <h2 style={{ color: primaryColor }} className='case-name'>
-        {name}
-      </h2>
-      <h2 style={{ color: secondaryColor }} className='case-profession'>
-        {profession}
-      </h2>
+      <div className='case-wrapper-header'>
+        <img src={icon} width={70} alt={"case-icon"} />
+        <div>
+          <h2 style={{ color: primaryColor }} className='case-name'>
+            {name}
+          </h2>
+          <h2
+            style={{ color: secondaryColor }}
+            className='case-profession'>
+            {profession}
+          </h2>
+        </div>
+      </div>
+
       <p
         className='case-description'
         style={{ borderColor: primaryColor }}>
@@ -26,12 +33,6 @@ export default function Case({
       <p style={{ color: secondaryColor }} className='case-quote'>
         {quote}
       </p>
-      <div className='case-genre-icon'>
-        <img
-          src={genre === "female" ? femaleIcon : maleIcon}
-          alt='genre-icon'
-        />
-      </div>
     </div>
   );
 }

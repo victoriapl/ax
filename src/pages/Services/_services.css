@@ -32,7 +32,7 @@
 }
 
 .services-button-text {
-   font-size: 20px;
+   font-size: 18px;
    margin: 0;
 }
 
@@ -46,17 +46,18 @@
    }
 
    .services-item-text {
-      min-height: 170px;
+      min-height: 120px;
    }
 
    .services-button-text {
-      font-size: 20px;
+      font-size: 19px;
    }
 }
 
 @media (min-width: 1000px) {
    .services {
       font-size: 15px;
+      min-height: 83vh;
       padding: 0 15%;
    }
 
@@ -70,7 +71,7 @@
    }
 
    .services-item-text {
-      min-height: 165px;
+      min-height: 130px;
    }
 
    .services-button-text {
@@ -84,6 +85,6 @@
    }
 
    .services-item-text {
-      min-height: 125px;
+      min-height: 100px;
    }
 }
