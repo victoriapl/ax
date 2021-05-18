@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import parse from "react-html-parser";
+import ExpandableText from "../../../components/ExpandableText/ExpandableText";
 import { LOGO } from "../../../constants";
 import "./_description.css";
 
@@ -8,7 +9,17 @@ export default function Description({
   description = "",
   title,
   logo = LOGO,
+  expandableTextData = false,
 }) {
+  const [expandableTextState, setExplandableTextState] =
+    useState(expandableTextData);
+
+  useEffect(() => {
+    if (expandableTextState && window.innerWidth > 400) {
+      setExplandableTextState(false);
+    }
+  }, [expandableTextState, setExplandableTextState]);
+
   return (
     <div className='description' id='service-description'>
       <div className='description-title'>
@@ -28,7 +39,24 @@ export default function Description({
       </div>
       {description && (
         <div>
-          <p className='description-text'>{parse(description)}</p>
+          {expandableTextState ? (
+            <ExpandableText
+              children={
+                <p className='description-text'>{parse(description)}</p>
+              }
+              buttonStyle={{
+                background: "transparent",
+                border: "none",
+                color: "#6C6C6C",
+                fontSize: "11px",
+              }}
+              className={
+                expandableTextState ? expandableTextState.className : ""
+              }
+            />
+          ) : (
+            <p className='description-text'>{parse(description)}</p>
+          )}
         </div>
       )}
     </div>

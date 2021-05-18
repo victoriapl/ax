@@ -7,3 +7,19 @@
    justify-content: center;
    width: 100%;
 }
+
+.footer-logo {
+   width: 60px;
+}
+
+@media (min-width: 640px) {
+   .footer-logo {
+      width: 80px;
+   }
+}
+
+@media (min-width: 1400px) {
+   .footer-logo {
+      width: 90px;
+   }
+}

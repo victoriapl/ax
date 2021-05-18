@@ -6,13 +6,14 @@
 .case-description {
    border-top: 2px solid;
    padding-top: 15px;
-   text-align: justify;
+   text-align: initial;
    white-space: pre-wrap;
 }
 
 .case-name, .case-profession {
    font-weight: normal;
    margin: 0;
+   text-align: center;
 }
 
 .case-quote {
@@ -28,6 +29,10 @@
 
    .case-wrapper-header {
       display: flex;
+   }
+
+   .case-name, .case-profession {
+      text-align: initial;
    }
 
    .case-genre-icon {

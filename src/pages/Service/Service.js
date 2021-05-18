@@ -57,6 +57,7 @@ export default function Service() {
           description={data.description}
           title={data.descriptionTitle}
           logo={data.logo}
+          expandableTextData={{ className: "service__expandable" }}
         />
       </div>
       {/* SECTIONS */}
@@ -74,6 +75,12 @@ export default function Service() {
           </React.Fragment>
         ))}
       </div>
+      <div
+        className='service-line'
+        style={{
+          borderBottom: `2px solid ${data.primaryColor}`,
+        }}
+      />
 
       {/* SUCCESSFUL CASES */}
       <div id='service-success' className='service-content'>

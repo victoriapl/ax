@@ -9,6 +9,7 @@
 .section-title {
    font-size: 16px;
    font-weight: 300;
+   text-align: initial;
 }
 
 .section-img {
@@ -25,7 +26,7 @@
 
 @media (min-width: 700px) {
    .section {
-      height: 65px;
+      height: 48px;
       padding: 0 100px;
    }
 
