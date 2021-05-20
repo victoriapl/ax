@@ -21,7 +21,13 @@
    text-align: initial;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 650px) and (max-width: 850px) {
+   .case-wrapper {
+      margin: 5% 15%;
+   }
+}
+
+@media (min-width: 780px) {
    .case-wrapper {
       margin: 5% 0;
       width: 30%;

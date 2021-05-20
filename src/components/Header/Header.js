@@ -103,7 +103,9 @@ export default function Header({
         <div
           className='header-hamburger-menu'
           style={{
-            color: secondaryColor ? primaryColor : "#50007E",
+            backgroundColor: secondaryColor
+              ? secondaryColor
+              : "#50007E",
           }}>
           {navLinks.map(({ title, url }, i) => (
             <p
@@ -116,6 +118,7 @@ export default function Header({
               style={{
                 borderLeft: selected === title ? "2px solid" : "",
                 textDecoration: "none",
+                marginTop: i === 0 ? "35%" : "0",
               }}
               className='header-hamburger--primary-link'>
               {secondaryColor ? (
@@ -136,7 +139,7 @@ export default function Header({
                 <RouterLink
                   to={url}
                   style={{
-                    color: secondaryColor ? primaryColor : "#50007E",
+                    color: "white",
                   }}
                   onClick={() => setHamburgerState(false)}>
                   {title}

@@ -31,22 +31,23 @@
 
 .header-hamburger-menu {
    background-color: white;
-   height: 92vh;
+   height: 90vh;
    left: 0;
    position: absolute;
-   top: 8vh;
-   width: 60vw;
+   top: 9vh;
+   width: 42vw;
 }
 
 .header-hamburger--primary-link {
-   font-size: 22px;
+   font-size: 15px;
    margin-left: 20px;
    padding-left: 5px;
    text-align: initial;
 }
 
 .header-hamburger--footer {
-   bottom: 0;
+   bottom: 15%;
+   font-size: 12px;
    margin-left: 20px;
    position: absolute;
    text-align: initial;
@@ -61,6 +62,20 @@
 
 .header-links {
    display: none;
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+   .header-hamburger-menu {
+      width: 25vw;
+   }
+
+   .header-hamburger--primary-link {
+      font-size: 18px;
+   }
+
+   .header-hamburger--footer {
+      font-size: 15px;
+   }
 }
 
 @media (min-width: 800px) {
@@ -117,7 +132,7 @@
    .header-link-item {
       cursor: pointer;
       font-weight: normal;
-      margin: 10px 20px;
+      margin: 10px 15px;
       text-decoration: none;
    }
    

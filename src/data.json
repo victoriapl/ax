@@ -102,7 +102,7 @@
         "maleIcon": "/icons/service/cases/male-consulting.svg",
         "cases": [
           {
-            "icon": "icons/service/section/acompIcon.svg",
+            "icon": "/icons/service/section/acompIconDarker.svg",
             "name": "ANÓNIMO",
             "profession": "Team Lead",
             "genre": "female",
@@ -110,7 +110,7 @@
             "quote": "“Aprendí a ser más clara y concisa con mis empleados para que así el equipo fuese más eficiente”"
           },
           {
-           "icon": "icons/service/section/imgCorpIcon.svg",
+           "icon": "/icons/service/section/imgCorpIconDarker.svg",
            "name": "ANÓNIMO",
            "profession": "Jefa sección",
            "genre": "female",
@@ -118,7 +118,7 @@
            "quote": "“Necesitaba completar un proceso largo y costoso y Alex me dio las herramientas y toda la información necesaria para lograr mi oposición con éxito.”"
          },
          {
-           "icon": "icons/service/section/acompIcon.svg",
+           "icon": "/icons/service/section/acompIconDarker.svgd",
            "name": "Pedro Corpas",
            "profession": "Formador",
            "genre": "female",
@@ -263,7 +263,7 @@
        "secondaryColor": "#D8529E",
        "extraColor": "#FEB9E0",
        "descriptionTitle": "SERVICIO",
-       "image": "/icons/DEVELOPMEN.svg",
+       "image": "/icons/newDevelopment.svg",
        "downArrow": "/icons/arrows/downArrowDevelopement.svg",
        "leftArrow": "/icons/arrows/leftArrowDevelopement.svg",
        "shortDescription": "Te ayudamos a ordenar y a tomar decisiones en tu vida de una forma eficiente, sana y beneficiosa para tu persona.",
@@ -290,7 +290,7 @@
         "maleIcon": "/icons/service/cases/male-developement.svg",
         "cases": [
           {
-            "icon": "/icons/service/section/camino.svg",
+            "icon": "/icons/service/section/caminoDarker.svg",
             "name": "EVA CUADROS",
             "profession": "Prof. de yoga",
             "genre": "female",
@@ -298,7 +298,7 @@
             "quote": "“Alex me dio las herramientas para que yo misma dirija mi vida tal y como quiero.”"
           },
           {
-           "icon": "/icons/service/section/aprendizaje.svg",
+           "icon": "/icons/service/section/aprendizajeDarker.svg",
            "name": "LARA de la CRUZ",
            "profession": "Interiorista",
            "genre": "female",
@@ -306,7 +306,7 @@
            "quote": "“Alex me dio todas las metodologías perfectas para poder afrontar mi realidad de una forma más asertiva y así poder lograr mis objetivos.”"
          },
          {
-           "icon": "/icons/service/section/camino.svg",
+           "icon": "/icons/service/section/caminoDarker.svg",
            "name": "LAURA NIUBÓ",
            "profession": "Team Lead",
            "genre": "female",
@@ -359,7 +359,7 @@
        "secondaryColor": " #D79E00",
        "extraColor": "#FFC91B",
        "descriptionTitle": "SERVICIO",
-       "image": "/icons/SPORT.svg",
+       "image": "/icons/newSport.svg",
        "downArrow": "/icons/arrows/downArrowSport.svg",
        "leftArrow": "/icons/arrows/leftArrowSport.svg",
        "shortDescription": "¿Quieres despegar tu carrera? ¿Quieres enfocar nuevos objetivos? ¿Deseas mejorar tu rendimiento? Nosotros te entregaremos todas las herramientas para completar todos tus retos.",
@@ -462,7 +462,7 @@
        "secondaryColor": "#732E01",
        "extraColor": "#732E01",
        "descriptionTitle": "SERVICIO",
-       "image": "/icons/ART.svg",
+       "image": "/icons/newArt.svg",
        "downArrow": "/icons/arrows/downArrowArt.svg",
        "leftArrow": "/icons/arrows/leftArrowBrown.svg",
        "shortDescription": "¿Necesitas crear una colección o lanzarla, representación, gestión...? Si eres artista y deseas generar impacto con tu obra, te guiaremos y te daremos las herramientas para lograr tus objetivos.",
@@ -471,14 +471,14 @@
        "sections": [
          {
            "title": "PINTURA",
-           "icon": "/icons/service/section/pintura.svg",
-           "darkerIcon": "/icons/service/section/pinturaDarker.svg",
+           "icon": "/icons/service/section/pinturaDarker.svg",
+           "darkerIcon": "/icons/service/section/pintura.svg",
            "description":"¿No sabes cómo puedes promocionar tu obra? ¿Quieres vivir de tu arte? Empezar de la nada no es tarea fácil. Es necesario desarrollar un tipo de ideas específicas que te permitan ser reconocido y que permitan trascender tu obra para darle más o menos notoriedad. Aquí te permitiremos trascender de persona a artista para que puedas vivir de tu arte."
          },
          {
            "title": "MÚSICA",
-           "icon": "/icons/service/section/musica.svg",
-           "darkerIcon": "/icons/service/section/musicaDarker.svg",
+           "icon": "/icons/service/section/musicaDarker.svg",
+           "darkerIcon": "/icons/service/section/musica.svg",
            "description":"¿Llevas años tocando un instrumento? ¿Eres músico de conservatorio? ¿Quieres sacar tu grupo o tu producto? ¿te planteas lanzar tu primer CD de forma profesional?. Aquí te guiaremos, te acompañaremos y te daremos las herramientas para que puedas lograr materializar toda tu pasión."
          }
        ],
@@ -489,7 +489,7 @@
         "maleIcon": "/icons/service/cases/male-art.svg",
         "cases": [
           {
-            "icon": "/icons/service/section/pinturaDarker.svg",
+            "icon": "/icons/service/section/pintura.svg",
             "name": "MONTSERRAT ANGUIANO",
             "profession": "Pintora",
             "genre": "female",
@@ -497,7 +497,7 @@
             "quote": "“Gracias a Alex he podido aprender a estar segura y a sentirme fuerte en mi proceso como artista.”"
           },
           {
-           "icon": "/icons/service/section/musicaDarker.svg",
+           "icon": "/icons/service/section/musica.svg",
            "name": "ANÓNIMO",
            "profession": "Músico",
            "genre": "male",

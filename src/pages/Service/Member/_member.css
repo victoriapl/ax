@@ -27,7 +27,18 @@
    margin: 0;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 650px) and (max-width: 800px) {
+   .member {
+      margin: 5% 15%;
+   }
+
+   .member-image-wrapper {
+      margin: 10px auto;
+      max-width: 150px;
+   }
+}
+
+@media (min-width: 800px) {
    .member {
       margin: 20px 30px;
    }

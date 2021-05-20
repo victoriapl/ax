@@ -9,6 +9,8 @@
    background-repeat: no-repeat;
    background-size: contain;
    height: 100%;
+   max-height: 200px;
+   min-height: 190px;
    width: 100%;
 }
 
@@ -65,6 +67,8 @@
    .contact-logo {
       background-position: center;
       height: 45%;
+      max-height: auto;
+      min-height: 210px;
       width: 95%;
    }
 
