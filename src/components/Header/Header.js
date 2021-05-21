@@ -9,23 +9,42 @@ import {
 import "./_header.css";
 import { Link as RouterLink } from "react-router-dom";
 
-function useClickOutsideHandler(ref, mainMenu, setMainMenu) {
+function useClickOutsideHandler(
+  wrapperRef,
+  hamburgerRef,
+  mainMenu,
+  setMainMenu,
+  hamburgerState,
+  setHamburgerState
+) {
   useEffect(() => {
     function handleClickOutside(event) {
       if (
-        ref.current &&
-        !ref.current.contains(event.target) &&
-        event.target.className !== "header-title-arrow" &&
-        mainMenu
+        (wrapperRef.current &&
+          !wrapperRef.current.contains(event.target) &&
+          event.target.className !== "header-title-arrow" &&
+          mainMenu) ||
+        (hamburgerRef.current &&
+          !hamburgerRef.current.contains(event.target) &&
+          event.target.className !== "header-hamburger-menu" &&
+          hamburgerState)
       ) {
         setMainMenu(false);
+        setHamburgerState(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [ref, mainMenu, setMainMenu]);
+  }, [
+    wrapperRef,
+    hamburgerRef,
+    mainMenu,
+    setMainMenu,
+    hamburgerState,
+    setHamburgerState,
+  ]);
 }
 
 export default function Header({
@@ -39,7 +58,15 @@ export default function Header({
   const [hamburgerState, setHamburgerState] = useState(false);
   const [mainMenu, setMainMenu] = useState(false);
   const wrapperRef = useRef(null);
-  useClickOutsideHandler(wrapperRef, mainMenu, setMainMenu);
+  const hamburgerRef = useRef(null);
+  useClickOutsideHandler(
+    wrapperRef,
+    hamburgerRef,
+    mainMenu,
+    setMainMenu,
+    hamburgerState,
+    setHamburgerState
+  );
 
   return (
     <header
@@ -102,6 +129,7 @@ export default function Header({
       {hamburgerState && (
         <div
           className='header-hamburger-menu'
+          ref={hamburgerRef}
           style={{
             backgroundColor: secondaryColor
               ? secondaryColor
