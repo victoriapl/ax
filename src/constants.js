@@ -2,7 +2,7 @@ export const TITLE = "SERVICES";
 export const NAV = [
   { title: "Home", url: "/" },
   { title: "Servicios", url: "/services" },
-  { title: "Quien soy", url: "/about" },
+  { title: "Quién soy", url: "/about" },
   { title: "Contacto", url: "/contact" },
 ];
 export const SERVICES = [

@@ -27,6 +27,7 @@ function useClickOutsideHandler(
         (hamburgerRef.current &&
           !hamburgerRef.current.contains(event.target) &&
           event.target.className !== "header-hamburger-menu" &&
+          event.target.className !== "header-hamburger-icon" &&
           hamburgerState)
       ) {
         setMainMenu(false);
@@ -98,6 +99,7 @@ export default function Header({
         className='header-hamburger'
         onClick={() => setHamburgerState(!hamburgerState)}>
         <img
+          className='header-hamburger-icon'
           src={HAMBURGER_MENU_ICON}
           width={"35"}
           alt={"hamburger-menu"}
@@ -153,6 +155,7 @@ export default function Header({
                 <Link
                   to={url}
                   onClick={() => setHamburgerState(false)}
+                  offset={-150}
                   smooth={true}>
                   {title}
                 </Link>
