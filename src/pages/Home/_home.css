@@ -1,5 +1,7 @@
 #root {
-   font-family: 'KumbhSans-Light';
+   font-family: 'KumbhSans-Light', 'Kumbh Sans', sans-serif;
+   font-weight: normal;
+   font-style: normal;
 }
 
 #home {
@@ -20,8 +22,10 @@
 }
 
 .home-service-text {
-   font-family: 'KumbhSans-Light';
+   font-family: 'KumbhSans-Light', 'Kumbh Sans', sans-serif;
    font-size: 25px;
+   font-style: normal;
+   font-weight: normal;
    margin: 10px;
    padding: 0 20px;
    text-align: initial;

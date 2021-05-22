@@ -37,6 +37,7 @@ export default function Section({
             src={section.darkerIcon}
             style={{ margin: "auto" }}
             width={70}
+            height={70}
             alt='section'
           />
           <span>{section.description}</span>

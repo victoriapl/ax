@@ -6,7 +6,9 @@ export default function Case({ data, primaryColor, secondaryColor }) {
   return (
     <div className='case-wrapper'>
       <div className='case-wrapper-header'>
-        {icon && <img src={icon} width={70} alt={"case-icon"} />}
+        {icon && (
+          <img src={icon} width={70} height={70} alt={"case-icon"} />
+        )}
         <div>
           <h2 style={{ color: primaryColor }} className='case-name'>
             {name}
