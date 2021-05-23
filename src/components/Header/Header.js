@@ -80,6 +80,7 @@ export default function Header({
           className='header-title-text'
           onClick={() => {
             history.push("/");
+            setSelected(false);
             setMainMenu(false);
           }}>
           AX | <span style={{ color: primaryColor }}>{title}</span>
